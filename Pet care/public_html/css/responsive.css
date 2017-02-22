@@ -9,7 +9,12 @@ and open the template in the editor.
 */
 
 @media(min-width:768px){
-    
+/*    .navbar-header{
+        position: relative;
+    } */
+    .navbar-brand{
+        float: right;
+    }
     
 }
 

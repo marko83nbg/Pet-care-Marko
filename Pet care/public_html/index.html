@@ -27,7 +27,7 @@
                     <p>
                         Leave A Message: <a href="#">info@patcare.com</a>
                     </p>
-                    <ul>
+                    <ul class="list-inline">
                         <li>
                             <a href="#">
                                 <span class="fa fa-twitter"></span>
@@ -57,29 +57,31 @@
                 </div>
             </section>
             <section class="logo">
-                <figure>
-                    <img src="img/logo-petcare.png" alt=""/>
-                </figure>
-                <ul>
-                    <li>
-                        <span class="fa fa-map-marker"></span>
-                        <p></p>
-                        <p></p>
-                    </li>
-                    <li>
-                        <span class="fa fa-hourglass-2"></span>
-                        <p></p>
-                        <p></p>
-                    </li>
-                    <li>
-                        <span class="fa fa-mobile"></span>
-                        <p></p>
-                        <p></p>
-                    </li>
-                </ul>
+                <div class="container">
+                    <figure>
+                        <img src="img/logo-petcare.png" alt="" class="img-responsive"/>
+                    </figure>
+                    <ul class="list-inline">
+                        <li>
+                            <span class="fa fa-map-marker"></span>
+                            <p></p>
+                            <p></p>
+                        </li>
+                        <li>
+                            <span class="fa fa-hourglass-2"></span>
+                            <p></p>
+                            <p></p>
+                        </li>
+                        <li>
+                            <span class="fa fa-mobile"></span>
+                            <p></p>
+                            <p></p>
+                        </li>
+                    </ul>
+                </div>
             </section>
             <nav class="navbar navbar-default">
-                <div class="container-fluid">
+                <div class="container">
                     <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -88,7 +90,29 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="#">Brand</a>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary btn-lg navbar-brand" data-toggle="modal" data-target="#myModal">
+                            Launch demo modal
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        ...
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
                     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -116,8 +140,8 @@
                             <li><a href="#">blog</a></li>
                             <li><a href="#">contact us</a></li>
                         </ul>
-                        
-                        
+
+
                     </div><!-- /.navbar-collapse -->
                 </div><!-- /.container-fluid -->
             </nav>
