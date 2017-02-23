@@ -9,17 +9,35 @@ and open the template in the editor.
 */
 
 @media(min-width:768px){
-/*    .navbar-header{
-        position: relative;
-    } */
-    .navbar-brand{
-        float: right;
+    .social .social-email{
+        float: left;
+        margin: 0;
     }
+    .social ul{
+        float: right;
+        margin: 0;
+    }
+    .navbar-header{
+        float: right;
+    } 
+    .nav > li > a {
+    padding: 15px 10px;
+    }  
+    
     
 }
 
 @media(min-width:992px){
-    
+   .nav > li > a {
+    padding: 15px 15px;
+} 
+.social ul a{
+    width: 25px;
+    height: 25px;
+}
+.social ul fa{
+    font-size: 20px;
+}
     
 }
 

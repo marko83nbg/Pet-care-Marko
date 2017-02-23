@@ -1,4 +1,172 @@
+.social{
+    background-color: #f5f5f5;
+}
+
+.social .social-email{
+    color: #959595;
+}
+
+.social .social-email a{
+   color: #959595; 
+}
+
+.social .social-email a:focus{
+   outline: none;
+}
+
+.social ul li{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+   
+}
+.social ul .fa{
+    color: #959595;
+    font-size: 20px;
+}
+
+.social ul li:hover{
+    background-color: #3b5998;
+}
+
+.social ul li:hover .fa{
+    color: #fff;
+}
+
+
+
+
 .social ul li{
     display: inline-block;
+}
+
+/* END OF SECTION SOCIAL*/
+.logo{
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
+.logo .location {
+    display: none;
+}
+
+.cart{
+   display: inline-block;
+   float: right;
+}
+/*END OF SECTION LOGO*/
+
+.navbar{
+    background-color: #1377c5;
+}
+.navbar-nav{
+   
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+}
+.navbar-default .navbar-nav > li > a:focus{
+    outline: none;
+}
+.navbar-brand{
+    margin-left: 15px;
+}
+
+.btn-lg, .btn-group-lg > .btn {
+    
+    border-radius: 0;
+    background-color: #0a68b1;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+
+.navbar-default .navbar-brand:hover, 
+.navbar-default .navbar-brand:focus {
+    color: #fff;
+    background-color: #0a68b1;
+    
+}
+
+.btn:focus, 
+.btn:active:focus, 
+.btn.active:focus, 
+.btn.focus, 
+.btn.focus:active, 
+.btn.active.focus {
+    outline: none;
+    
+}
+
+.btn-primary {
+    border-color: transparent;
+}
+
+.btn-primary:hover, 
+.btn-primary:focus, 
+.btn-primary.focus, 
+.btn-primary:active, 
+.btn-primary.active, 
+.open > .dropdown-toggle.btn-primary {
+    
+    
+    border-color: transparent;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+.navbar-toggle {
+    border-radius: 0px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-toggle:hover, 
+.navbar-default .navbar-toggle:focus {
+    background-color: #0a68b1;
+}
+
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color: #0a68b1;
+}
+
+.navbar-default .navbar-nav > li > a:hover, 
+.navbar-default .navbar-nav > li > a:focus {
+    color: #fff;
+    background-color: #0a68b1;
+}
+
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #fff;
+    background-color: #0a68b1;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, 
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #fff;
+    background-color: #0a68b1;
+}
+
+.dropdown-menu {
+    
+    background-color: #0a68b1;
+    
 }
 
