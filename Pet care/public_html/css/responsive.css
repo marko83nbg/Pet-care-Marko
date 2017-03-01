@@ -35,10 +35,23 @@ and open the template in the editor.
     .modal-body form div:first-of-type{
         padding-left: 0;
     }
+    
+    .modal-body form div:nth-of-type(4n){
+         padding-right: 0;
+    }
 
     .modal-body form div:last-of-type{
         padding-right: 0;
+        padding-left: 0;
     }
+    /*END OF HEADER*/
+    .main-slider .bxslider li .text{
+    display: block;
+}
+.bxslider .content-1,
+.bxslider .content-2{
+    text-align: right;
+}
 
 
 }

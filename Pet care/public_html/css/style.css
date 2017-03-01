@@ -83,7 +83,7 @@
 }
 
 .slidepanel .phone .fa{
-  font-size: 45px;  
+    font-size: 45px;  
 }
 
 .slidepanel p{
@@ -183,7 +183,7 @@
 .navbar-header .modal-content {
     border: 1px solid #1377c5;
     border-radius: 0px;
-    
+
 }
 
 .navbar-header .modal-header {
@@ -199,6 +199,16 @@
 
 .modal-body form .form-control:focus {
     border-color: #000;
+}
+
+.modal-body form .btn-primary{
+    display: block;
+    margin: 0 auto;
+}
+
+.modal-body form .btn {
+    text-transform: uppercase;
+    background-color: #55a62f;
 }
 
 .navbar-default .navbar-toggle {
@@ -266,10 +276,11 @@
 .main-slider .bxslider .slider-content h2{
     color: #f44027;
     text-transform: uppercase;
-    font-size: 54px;
+    font-size: 25px;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
-
+    text-align: center;
+    margin-bottom: 30px;
 }
 
 .main-slider .bxslider .slider-content h2 .care{
@@ -279,11 +290,25 @@
 .main-slider .bxslider .slider-content h2 .dog{
     color: #0a68b1;
 }
+.main-slider .bxslider .slider-content h3{
+    color: #000;
+    background-color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 600;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
 
 .main-slider .bxslider .slider-content .pet{
     color: #fff;
-    font-size: 36px;
+    font-size: 15px;
     font-family: 'Oxygen', sans-serif;
+    text-align: center;
+    font-weight: 600;
 
 }
 
@@ -296,10 +321,11 @@
     border-radius: 0px;
     text-transform: uppercase;
     border: none;
-    width: 150px;
-    font-size: 15px;
+    width: 130px;
+    font-size: 13px;
     font-family: 'Oxygen', sans-serif;
     font-weight: 700;
+    margin-right: 10px;
 
 }
 
@@ -307,6 +333,24 @@
     color: #fff;
     background: #f44027;
 }
+
+.main-slider .bxslider li .text{
+    display: none;
+}
+
+.main-slider .bxslider li{
+    position: relative;
+}
+
+.main-slider .bxslider li .slider-content{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 10%;
+}
+
+
+
 
 
 
