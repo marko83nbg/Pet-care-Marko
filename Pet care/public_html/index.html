@@ -61,36 +61,46 @@
                     </ul>
                 </div>
             </section>
-            <section class="logo">
+            <section class="middle-header">
                 <div class="container">
-                    <figure>
-                        <img src="img/logo-petcare.png" alt="" class="img-responsive"/>
-                    </figure>
-                    <div class="clearfix">
-                        <div class="location">
-                            <ul class="list-inline">
-                                <li>
-                                    <span class="fa fa-map-marker"></span>
-                                    <p></p>
-                                    <p></p>
-                                </li>
-                                <li>
-                                    <span class="fa fa-hourglass-2"></span>
-                                    <p></p>
-                                    <p></p>
-                                </li>
-                                <li>
-                                    <span class="fa fa-mobile"></span>
-                                    <p></p>
-                                    <p></p>
-                                </li>
-                            </ul>
+                    <div class="row">
+                        <figure class="col-sm-3 logo pull-left">
+                            <img src="img/logo-petcare.png" alt="" class="img-responsive"/>
+                        </figure>
+                        <div class="col-sm-9 pull-right text-right">
+                            <div class="slidepanel">
+                            <div class="location">
+
+                                <span class="fa fa-map-marker"></span>
+                                <p class="text-left">
+                                    <span>Our Location</span>
+                                    50-Design Street, Texas
+                                </p>
+
+                            </div>
+                            <div class="time">
+                                <span class="fa fa-hourglass-2"></span>
+                                <p class="text-left">
+                                    <span>Mon-Sat</span>
+                                    8am-10pm
+                                </p>
+
+                            </div>
+                            <div class="phone">
+                                <span class="fa fa-mobile"></span>
+                                <p class="text-left">
+                                    <span>Call Us</span>
+                                    +1(0)234 56 789
+                                </p>
+
+                            </div>
+                                
+                            </div>
+                            <a href="#" class="cart"><span class="fa fa-shopping-basket"></span></a>
                         </div>
-
-                        <a href="#" class="cart"><span class="fa fa-shopping-basket"></span></a>
-
                     </div>
                 </div>
+
             </section>
             <nav class="navbar navbar-default">
                 <div class="container">
@@ -113,14 +123,26 @@
                                 <div class="modal-content">
                                     <div class="modal-header">
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
                                     </div>
                                     <div class="modal-body">
-                                        ...
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                        <form>
+                                            <div class="form-group col-sm-3">
+                                                <input class="form-control" type="text" placeholder="First Name">
+                                            </div>
+                                            <div class="form-group col-sm-3">
+                                                <input class="form-control" type="text" placeholder="Last Name">
+                                            </div>
+                                            <div class="form-group col-sm-3">
+                                                <input class="form-control" type="email" placeholder="Email">
+                                            </div>
+                                            <div class="form-group col-sm-3">
+                                                <input class="form-control" type="text" placeholder="Phone Number">
+                                            </div>
+                                            <textarea class="form-control col-sm-12" placeholder="Any thing we should know about your pet?"></textarea>
+                                                
+                                        
+                                        <button type="button" class="btn btn-primary">get an appoinment</button>
+                                        </form>
                                     </div>
                                 </div>
                             </div>

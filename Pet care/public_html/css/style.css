@@ -14,21 +14,24 @@
 
 .social .social-email{
     color: #959595;
+    line-height: 40px;
+    font-size: 13px;
+    font-family: 'Oxygen', sans-serif;
 }
 
 .social .social-email a{
-   color: #959595; 
+    color: #959595; 
 }
 
 .social .social-email a:focus{
-   outline: none;
+    outline: none;
 }
 
 .social ul li{
     width: 40px;
     height: 40px;
     padding: 10px;
-   
+
 }
 .social ul .fa{
     color: #959595;
@@ -51,27 +54,75 @@
 }
 
 /* END OF SECTION SOCIAL*/
-.logo{
+.middle-header{
     padding-top: 28px;
     padding-bottom: 28px;
 }
-.logo .location {
+.slidepanel {
     display: none;
+    font-family: 'Montserrat', sans-serif;
+}
+.location,
+.time,
+.phone{
+    display: inline-block;
+    position: relative;
+    padding-left: 35px;
+    margin-right: 10px;
+}
+.slidepanel .fa{
+    position: absolute;
+    left: 0;
+    display: block;
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.slidepanel .location .fa{
+    font-size: 40px;
+}
+
+.slidepanel .phone .fa{
+  font-size: 45px;  
+}
+
+.slidepanel p{
+    margin-bottom: 0;
+    padding-top: 5px;
+}
+.slidepanel p span{
+    display: block;
+    font-weight: 600;
 }
 
 .cart{
-   display: inline-block;
-   float: right;
+    display: inline-block;
+    line-height: 62px;
+    font-size: 30px;
+    margin-right: 5px;
+    color: #000;
 }
-/*END OF SECTION LOGO*/
+
+.cart:hover, 
+.cart:focus {
+    color: #3b5998;
+}
+/*END OF SECTION MIDDLE HEADER*/
 
 .navbar{
     background-color: #1377c5;
     margin-bottom: 0;
     border-radius: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-collapse {
+    padding-right: 0px;
+    padding-left: 0px;
+
 }
 .navbar-nav{
-   
+
     text-transform: uppercase;
     font-size: 12px;
 }
@@ -86,7 +137,7 @@
 }
 
 .btn-lg, .btn-group-lg > .btn {
-    
+
     border-radius: 0;
     background-color: #0a68b1;
     text-transform: uppercase;
@@ -101,7 +152,7 @@
 .navbar-default .navbar-brand:focus {
     color: #fff;
     background-color: #0a68b1;
-    
+
 }
 
 .btn:focus, 
@@ -111,7 +162,7 @@
 .btn.focus:active, 
 .btn.active.focus {
     outline: none;
-    
+
 }
 
 .btn-primary {
@@ -124,9 +175,30 @@
 .btn-primary:active, 
 .btn-primary.active, 
 .open > .dropdown-toggle.btn-primary {
-    
-    
+
+
     border-color: transparent;
+}
+
+.navbar-header .modal-content {
+    border: 1px solid #1377c5;
+    border-radius: 0px;
+    
+}
+
+.navbar-header .modal-header {
+    border-bottom: none;
+}
+
+.modal-body form .form-control {
+    font-size: 13px;
+    color: #000;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.modal-body form .form-control:focus {
+    border-color: #000;
 }
 
 .navbar-default .navbar-toggle {
@@ -177,9 +249,9 @@
 }
 
 .dropdown-menu {
-    
+
     background-color: #0a68b1;
-    
+
 }
 
 /* END OF HEADER */
@@ -197,7 +269,7 @@
     font-size: 54px;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
-    
+
 }
 
 .main-slider .bxslider .slider-content h2 .care{
@@ -212,7 +284,7 @@
     color: #fff;
     font-size: 36px;
     font-family: 'Oxygen', sans-serif;
-    
+
 }
 
 .main-slider .bxslider .slider-content p{
@@ -228,7 +300,7 @@
     font-size: 15px;
     font-family: 'Oxygen', sans-serif;
     font-weight: 700;
-    
+
 }
 
 .main-slider .bxslider .slider-content .purchase{

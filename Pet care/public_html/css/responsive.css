@@ -17,31 +17,47 @@ and open the template in the editor.
         float: right;
         margin: 0;
     }
+    /*END OF SECTION SOCIAL*/
+    .slidepanel {
+        display: inline-block;
+    }
+
+    .cart{
+        line-height: 45px;
+    }
     .navbar-header{
         float: right;
     } 
     .nav > li > a {
-    padding: 15px 10px;
-    }  
-    
-    
+        padding: 15px 10px;
+    } 
+
+    .modal-body form div:first-of-type{
+        padding-left: 0;
+    }
+
+    .modal-body form div:last-of-type{
+        padding-right: 0;
+    }
+
+
 }
 
 @media(min-width:992px){
-   .nav > li > a {
-    padding: 15px 15px;
-} 
-.social ul a{
-    width: 25px;
-    height: 25px;
-}
-.social ul fa{
-    font-size: 20px;
-}
-    
+    .nav > li > a {
+        padding: 15px 15px;
+    } 
+    .social ul a{
+        width: 25px;
+        height: 25px;
+    }
+    .social ul fa{
+        font-size: 20px;
+    }
+
 }
 
 @media(min-width:1200px){
-    
-    
+
+
 }
