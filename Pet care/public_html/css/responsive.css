@@ -48,10 +48,37 @@ and open the template in the editor.
     .main-slider .bxslider li .text{
     display: block;
 }
-.bxslider .content-1,
-.bxslider .content-2{
-    text-align: right;
+
+
+.bxslider .content-1 .container,
+.bxslider .content-2 .container{
+    text-align: right !important;
 }
+
+.bxslider .content-3 .container{
+    text-align: left !important;
+}
+
+.main-slider .bxslider .slider-content h2{
+    font-size: 40px;
+    
+}
+
+.bxslider .container p span{
+    display: block;
+}
+
+.bxslider .content-1 .pet{
+    font-size: 36px !important;
+}
+
+.main-slider .bxslider .slider-content h3 {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 15px;
+}
+
+
 
 
 }
@@ -67,6 +94,12 @@ and open the template in the editor.
     .social ul fa{
         font-size: 20px;
     }
+    
+    /* END OF HEADER SECTION*/
+    .main-slider .bxslider .slider-content h2{
+    font-size: 54px;
+    
+}
 
 }
 
