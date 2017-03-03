@@ -98,9 +98,11 @@ and open the template in the editor.
     /* END OF HEADER SECTION*/
     .main-slider .bxslider .slider-content h2{
     font-size: 54px;
-    
+    }
+/* END OF MAIN SLIDER SECTION*/
+.services .col-md-3{
+    display: block;
 }
-
 }
 
 @media(min-width:1200px){
