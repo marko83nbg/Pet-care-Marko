@@ -78,6 +78,23 @@ and open the template in the editor.
     font-size: 15px;
 }
 
+/*END OF SECTION MAIN SLIDER*/
+
+.callout article{
+    text-align: left;
+}
+
+.callout .go-to{
+    text-align: right;
+    padding-top: 45px;
+}
+
+.callout .btn {
+    padding: 12px 24px;
+    font-size: 16px;
+    
+}
+
 
 
 
@@ -105,7 +122,9 @@ and open the template in the editor.
 }
 /* END OF SECTION SERVICES*/
 
-
+.callout .go-to{
+    padding-top: 20px;
+}
 
 
 

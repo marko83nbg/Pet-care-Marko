@@ -32,6 +32,7 @@
     height: 40px;
     padding: 10px;
     transition: 1s ease;
+    display: inline-block;
 
 }
 .social ul .fa{
@@ -46,15 +47,8 @@
 .social ul li:hover .fa{
     color: #fff;
 }
-
-
-
-
-.social ul li{
-    display: inline-block;
-}
-
 /* END OF SECTION SOCIAL*/
+
 .middle-header{
     padding-top: 28px;
     padding-bottom: 28px;
@@ -123,9 +117,12 @@
 
 }
 .navbar-nav{
-
     text-transform: uppercase;
     font-size: 12px;
+    text-align: center;
+}
+.dropdown-menu{
+    text-align: center;
 }
 .navbar-default .navbar-nav > li > a {
     color: #fff;
@@ -304,7 +301,7 @@
     font-weight: 600;
     padding-top: 5px;
     padding-bottom: 5px;
-    
+
 }
 
 .main-slider .bxslider .slider-content .pet{
@@ -362,10 +359,10 @@
 /* END OF SECTION MAIN SLIDER*/
 
 .headline h3{
-   margin-bottom: 0;
-   text-transform: uppercase;
-   color: #000;
-   font-family: 'Oxygen', sans-serif;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    color: #000;
+    font-family: 'Oxygen', sans-serif;
 }
 .headline p{
     color: #a7a7a7;
@@ -411,10 +408,10 @@
 
 .what-we-do .section-img div span{
     font-family: 'Oxygen', sans-serif;
-     font-size: 14px;
-     display: block;
-     text-transform: capitalize;
-     margin-top: 10px;
+    font-size: 14px;
+    display: block;
+    text-transform: capitalize;
+    margin-top: 10px;
 }
 
 .what-we-do .section-img div figure{
@@ -423,7 +420,7 @@
 }
 
 .what-we-do .row article img{
-    width: 100%
+    width: 100%;
 }
 
 .what-we-do .content-slide{
@@ -435,6 +432,7 @@
     height: 0;
     overflow: hidden;
     transition: 2s;
+    z-index: 10;
 }
 
 .what-we-do .row article:hover .content-slide{
@@ -464,11 +462,11 @@
 }
 
 .what-we-do .content-headline h3 span{
-     font-family: 'Oxygen', sans-serif;
-     font-size: 14px;
-     display: block;
-     text-transform: capitalize;
-     margin-top: 10px;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 14px;
+    display: block;
+    text-transform: capitalize;
+    margin-top: 10px;
 }
 
 .what-we-do .content-headline figure{
@@ -507,15 +505,17 @@
 /* END OF SECTION WHAT WE DO */
 .appointment{
     background-size: cover;
+    background-atacment:fixed;
+    background-position:center center;
 }
 .background-shadow{ 
-   background-color: rgba(0,0,0,0.4);
-   padding-top: 100px;
-   padding-bottom: 100px;
+    background-color: rgba(0,0,0,0.4);
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .appointment .headline h3{
-   color: #fff;
+    color: #fff;
 }
 
 .appointment .headline p{
@@ -554,7 +554,9 @@
 }
 
 /* END OF SECTION APPOINMENT */
-
+.services{
+    padding: 30px 0;
+}
 .services .headline p{
     color: #3e3e3e;
 }
@@ -569,6 +571,7 @@
 
 .services .col-sm-8{
     padding-left: 0;
+     line-height:40px;
 }
 
 .services .nav{
@@ -579,6 +582,8 @@
     color: #000;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
+     display:inline-block;
+     top:10px;
 }
 
 .services .nav > li > a:hover, 
@@ -590,6 +595,7 @@
 
 .services .nav li span{
     margin-right: 23px;
+    display:block;
     width: 27px;
     height: 27px;
     overflow: hidden;
@@ -598,6 +604,16 @@
 
 .services .nav li span img{
     max-width: 100%;
+}
+
+.services .nav .active a span img,
+.services .nav a:hover span img
+{
+margin-top:-28px;
+}
+
+.services .tab-pane{
+min-height:200px;
 }
 
 
@@ -615,12 +631,14 @@
 
 .callout{
     background-size: cover;
+    padding: 40px 0;
 }
 
 .callout article{
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     color: #fff;
+    text-align: center;
 }
 
 .callout article h3{
@@ -636,7 +654,7 @@
 }
 
 .callout .btn {
-    
+
     font-weight: 600;
     border-radius: 0px;
     text-transform: uppercase;
@@ -651,6 +669,7 @@
 
 .callout .go-to{
     margin: 0 auto;
+    text-align: center;
 }
 
 /* END OF SECTION CALLOUT*/
@@ -671,3 +690,228 @@
 .clients .headline h3{
     color: #fff;
 }
+
+/*END OF SECTION CLIENTS*/
+
+.team ul li{
+    position: relative;
+}
+
+/*.team ul li .background-slide{
+    position: absolute;
+    bottom: 10px;
+    background: rgba(19,119,197,0.3);
+    width: 270px;
+}
+
+.team ul li .team-member-name{
+    background: #fff;
+    border: 1px solid #1377c5;
+    text-align: center;
+    
+        
+}
+
+.team ul li h4{
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.team ul li p{
+    color: #d8d8d8;
+    font-family: 'Oxygen', sans-serif;
+    text-transform: capitalize;
+}
+
+.team .social-slider{
+    background: #1377c5;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    height: 0;
+    overflow: hidden;
+    transition: 2s;
+    z-index: 10;
+}
+
+.team .team-member:hover .social-slider{
+    height: 100%;
+}
+
+.team .social-slider .team-member-name{
+    border: none;
+}
+
+.team .social-slider ul li{
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    transition: 1s ease;
+    border: 1px solid #7ab2de;
+    border-radius: 50%;
+    line-height: 30px;
+    text-align: center;
+    display: inline-block;
+}
+
+.team .social-slider .fa{
+    color: #7ab2de;
+    font-size: 20px;
+}
+
+.social ul li:hover{
+    border-color: #fff;
+}
+
+.social ul li:hover .fa{
+    color: #fff;
+}*/
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*END OF SECTION TEAM*/
+
+.data{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.data .color{
+    background-color: rgba(83, 158, 34, 0.8);
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.data article{
+    height: 55px;
+}
+
+.data div{
+    color: #fff;
+    font-size: 30px;
+}
+
+.data div figure{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+
+.data h3{
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.data h3:nth-of-type(4){
+    margin-bottom: 0;
+}
+
+.data h3::after {
+    background: #fff;
+    text-align: center;
+   
+}
+
+/*END OF SECTION DATA*/
+
+.shop1{
+    background-color: #f8f8f8;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+.shop1 .shop-product{
+    padding: 5px;
+    transition: 1s ease;
+}
+
+.shop1 .shop-product h4{
+    font-family: 'Oxygen', sans-serif;
+    text-transform: uppercase;
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.shop1 .shop-product p{
+    color: #539e22;
+    font-family: 'Oxygen', sans-serif;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.shop1 .shop-product .fa{
+    margin-right: 5px;
+}
+
+.shop1 .shop-links{
+    display: none;
+    position: absolute;
+    top:0;
+}
+
+.shop1 .shop-links a{
+    display: inline-block;
+    color: #000;
+    transition: 1s ease;
+}
+
+.shop1 .shop-links .btn-default {
+    background-color: transparent;
+    border-color: #000;
+}
+
+.shop1 .shop-links .btn {
+    border-radius: 0px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.shop1 .shop-links a:hover
+
+.shop1 .shop-links a .fa{
+    color: #000;
+}
+
+.shop1 .shop-product:hover{
+    background-color: #f0f0f0;
+    border: 1px solid #d0d0d0;
+}
+
+.shop1 .shop-product:hover .shop-links{
+    display: block;
+}
+
+/*END OF SECTION SHOP1*/
+
+.ofer p{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+.ofer p span{
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
