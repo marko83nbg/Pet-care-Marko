@@ -125,6 +125,12 @@ and open the template in the editor.
 .callout .go-to{
     padding-top: 20px;
 }
+/* END OF SECTION CALLOUT*/
+
+.shop1 .shop-links .shop1-like{
+    top:80%;
+    left: -25%;
+}
 
 
 
@@ -133,6 +139,9 @@ and open the template in the editor.
 }
 
 @media(min-width:1200px){
-
+.shop1 .shop-links .shop1-like{
+    top:80%;
+    left: -10%;
+}
 
 }
