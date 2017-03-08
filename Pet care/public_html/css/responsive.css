@@ -169,7 +169,7 @@ and open the template in the editor.
 
     .shop1 .shop-links .shop1-like{
         top:80%;
-        left: -25%;
+        
     }
     /*END OF SHOP1 SECTION*/
 
@@ -186,7 +186,7 @@ and open the template in the editor.
 @media(min-width:1200px){
     .shop1 .shop-links .shop1-like{
         top:80%;
-        left: -10%;
+     
     }
 
 }

@@ -27,7 +27,8 @@ $('.my-carousel').owlCarousel({
 });
 
 
-
+$('.testimonial a.bx-prev').text('');
+$('.testimonial a.bx-next').text('');
 
 
 
