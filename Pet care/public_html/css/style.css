@@ -448,16 +448,16 @@ a:hover{
     transition: 1.5s ease;
 }
 .what-we-do .section-img:hover .triangle{
- opacity: 0;   
+    opacity: 0;   
 }
 .triangle.red{
     background: rgba(244,64,39,1);
 }
 
- .triangle.green{
+.triangle.green{
     background: rgba(85,166,47,1);
 }
- .triangle.orange{
+.triangle.orange{
     background: rgba(255,190,1,1);
 }
 .what-we-do .content-slide{
@@ -663,12 +663,12 @@ a:hover{
 .animation{
     visibility: hidden;
     position: relative;
-    
+
 }
 .slide-left{
     animation-name: slide-left;
     -webkit-animation-name: slide-left;
-     /*The duration of the animation */
+    /*The duration of the animation */
     animation-duration: 1s;
     -webkit-animation-duration: 1s;
     /* Make the element visible */
@@ -705,7 +705,7 @@ a:hover{
     -webkit-animation-duration: 1s;
     /* Make the element visible */
     visibility: visible;
-    
+
 }
 /* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
 @keyframes slide {
@@ -950,21 +950,21 @@ a:hover{
     margin: 0;
     top:0;
     display: inline-block;
- 
+
     margin-left: 5px;
     right: auto;
     left: auto;
-    
+
 }
 .testimonial .bx-wrapper .bx-controls-direction a.bx-next{
-   background: #fff url('assets/next.png') no-repeat center center;
+    background: #fff url('assets/next.png') no-repeat center center;
 
-  
+
 }
 .testimonial .bx-wrapper .bx-controls-direction a.bx-prev{
-   background: #fff url('assets/prev.png') no-repeat center center;
-  
-  
+    background: #fff url('assets/prev.png') no-repeat center center;
+
+
 }
 .members{
     margin-top: 20px;
@@ -989,7 +989,7 @@ a:hover{
 
 .team ul li{
     position: relative;
- 
+
 }
 .team ul li{
     display: inline-block;
@@ -1010,7 +1010,7 @@ a:hover{
     max-width: 270px;
     margin: auto;
     margin-bottom: 50px;
-    
+
 }
 
 .team .background-slide h4{
@@ -1304,7 +1304,7 @@ a:hover{
 
 .shop2 article img{
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 .shop2 article .shop-date{
@@ -1330,6 +1330,7 @@ a:hover{
 
 .shop2 .shop-image{
     position: relative;
+    height: 165px;
 }
 
 .shop2 .image-shadow{
@@ -1356,9 +1357,10 @@ a:hover{
     border-color: #fff;
     color: #fff;
     background-color: transparent;
-    position: relative;
-    top: 40%;
-    left: 35%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 
 }
 
@@ -1401,6 +1403,9 @@ a:hover{
 .shop2 .shop-text h4{
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
+    line-height: 22px;
+    height: 44px;
+    overflow: hidden;
 }
 
 .shop2 .shop-text h4 a{
@@ -1414,6 +1419,8 @@ a:hover{
     line-height: 22px;
     border-bottom: 1px solid #8d8d8d;
     padding-bottom: 15px;
+    height: 110px;
+    overflow: hidden;
 }
 
 .shop2 .shop-footer{
@@ -1785,3 +1792,53 @@ BLOG PAGE
     background-color: #515151;
     color: #fff;
 }
+/* 
+
+END OF BLOG PAGE
+
+*/
+
+/* 
+
+SINGLE BLOG PAGE
+
+*/
+
+
+.single-blog .headline h3{
+    margin-top: 0px;
+}
+
+.single-blog article{
+    width: 100%;
+    max-width: 100%;
+}
+.single-blog{
+    padding: 0 15px;
+    background-color: #fff;
+}
+
+.single-blog .single-blog-img{
+    height: auto;
+}
+
+.single-blog p:first-of-type{
+    border-bottom: none;
+}
+
+.single-blog .red-quotes{
+    width: 40px;
+    height: 40px;
+
+}
+
+.single-blog .red-quotes-p{
+    display: inline-block;
+    border-bottom: none !important;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+
+
