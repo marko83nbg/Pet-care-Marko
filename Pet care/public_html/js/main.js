@@ -31,7 +31,32 @@ $('.testimonial a.bx-prev').text('');
 $('.testimonial a.bx-next').text('');
 
 
+//Animacije
 
+$(window).scroll(function(){  
+    $('.animation').each(function(){
+        var position = $(this).offset().top;
+        var height = $(window).height();
+        var scroll = $(window).scrollTop();
+        var animationName = $(this).attr('data-animation');
+        if(position < scroll + height -50){
+            $(this).addClass(animationName);
+        }
+    });
+});
+
+
+$('.animation').each(function(){
+        var position = $(this).offset().top;
+        var height = $(window).height();
+        var scroll = $(window).scrollTop();
+        var animationName = $(this).attr('data-animation');
+        if(position < scroll + height/2 +100){
+            $(this).addClass(animationName);
+        }
+    });
+
+  
 
 
 
