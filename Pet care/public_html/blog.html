@@ -191,29 +191,33 @@
                         <h1>
                             blog
                         </h1> 
-                        <nav class="breadcrumb">
-                            <a class="breadcrumb-item" href="#">Home</a>
-                            <span class="breadcrumb-item active">blog</span>
-                        </nav>
+                        <ol class="breadcrumb">
+                            <li>
+                                <a class="breadcrumb-item" href="#">Home</a>
+                            </li>
+                            <li class="active">
+                                <span class="breadcrumb-item">blog</span>
+                            </li>
+                        </ol>
                     </div>
 
                 </div>
             </section>
-            <!-----END OF SECTION BLOG HEADLINE----->
-            
+            <!-- END OF SECTION BLOG HEADLINE -->
+
             <section class="blog">
                 <div class="container">
                     <div class="row">
-                        <div class="col-sm-8 col-md-9 shop2">
-                            <div class="headline text-center">
-                        <h3>updates from our shop</h3>
-                        <img src="img/separator.png" alt=""/>
-                        <p>
-                            They will have to make the best of things its an uphill climb
-                        </p>
-                    </div>
+                        <div class="col-sm-8 col-md-9 shop2 blog-style">
+                            <div class="headline">
+                                <h3>updates from our shop</h3>
+                                <img src="img/separator.png" alt=""/>
+                                <p>
+                                    They will have to make the best of things its an uphill climb
+                                </p>
+                            </div>
                             <article>
-                                <div class="shop-image">
+                                <div class="shop-image blog-img">
                                     <iframe width="560" height="315" src="https://www.youtube.com/embed/B740GiFJh6k" frameborder="0" allowfullscreen></iframe>
 
                                 </div>
@@ -257,9 +261,9 @@
                                     </div>
                                 </div>
                             </article>
-                            
+
                             <article>
-                                <div class="shop-image">
+                                <div class="shop-image blog-img">
                                     <img src="img/shop2-img/dog.jpg" alt="" class="img-responsive"/>
                                     <div class="image-shadow">
                                         <a href="#" class="btn btn-default">read more</a>
@@ -306,9 +310,9 @@
                                     </div>
                                 </div>
                             </article>
-                            
+
                             <article>
-                                <div class="shop-image">
+                                <div class="shop-image blog-img">
                                     <img src="img/shop2-img/cat.jpg" alt="" class="img-responsive"/>
                                     <div class="image-shadow">
                                         <a href="#" class="btn btn-default">read more</a>
@@ -355,11 +359,33 @@
                                     </div>
                                 </div>
                             </article>
+
+                            <nav aria-label="Page navigation" class="text-center">
+                                <ul class="pagination">
+                                    <li>
+                                        <a href="#" aria-label="Previous">
+                                            <span aria-hidden="true">&laquo;</span>
+                                        </a>
+                                    </li>
+                                    <li class="active"><a href="#">1</a></li>
+                                    <li><a href="#">2</a></li>
+                                    <li><a href="#">3</a></li>
+                                    <li><a href="#">4</a></li>
+                                    <li><a href="#">5</a></li>
+                                    <li>
+                                        <a href="#" aria-label="Next">
+                                            <span aria-hidden="true">&raquo;</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
                         </div>
+                        <!-- END OF DIV BLOG STYLE -->
+                        
                         <div class="col-sm-4 col-md-3">
                             <aside>
                                 <h3>post category</h3>
-                                <ul>
+                                <ul style="list-style: square inside url('img/bullet.png');">
                                     <li>
                                         <a href="#">all kind of birds</a>
                                     </li>
@@ -382,7 +408,7 @@
                             </aside>
                             <aside>
                                 <h3>archives</h3>
-                                <ul>
+                                <ul style="list-style: square inside url('img/bullet.png');">
                                     <li>
                                         <a href="#">december 2016</a>
                                     </li>
@@ -395,21 +421,21 @@
                                 </ul>
                             </aside>
                             <aside>
-                                 <h3>popular tags</h3>
-                                 <div>
-                                     <a href="#">audio</a>
-                                     <a href="#">checkup</a>
-                                     <a href="#">food</a>
-                                     <a href="#">gallery</a>
-                                     <a href="#">pets</a>
-                                     <a href="#">veterinary</a>
-                                 </div>
+                                <h3>popular tags</h3>
+                                <div>
+                                    <a href="#">audio</a>
+                                    <a href="#">checkup</a>
+                                    <a href="#">food</a>
+                                    <a href="#">gallery</a>
+                                    <a href="#">pets</a>
+                                    <a href="#">veterinary</a>
+                                </div>
                             </aside>
                         </div>
-                        
+
                     </div>
                 </div>
-                
+
             </section>
 
         </main>
