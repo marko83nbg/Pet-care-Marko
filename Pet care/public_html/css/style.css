@@ -2156,3 +2156,118 @@ END OF SINGLE BLOG PAGE
 PET LIST PAGE
 
 */
+
+.blog .lists h3{
+    padding: 10px 10px;
+    color: #fff;
+    background-color: #f44027;
+    border: 1px solid #f44027;
+}
+
+.blog .lists .filter-by-price{
+    background-color: #539e22;
+    border: 1px solid #539e22;
+}
+
+.blog .lists .product-cat{
+    background-color: #ffbe01;
+    border: 1px solid #ffbe01;
+}
+
+.blog .lists .best{
+    background-color: #1377c5;
+    border: 1px solid #1377c5;
+}
+
+.blog .best-seller{
+    margin-top: 0;
+}
+
+.blog .best-seller figure{
+    width: 30%;
+    float: left;
+}
+
+.blog .best-seller article{
+    width: 70%;
+    float: right;
+    margin-bottom: 0;
+    padding-left: 10px;
+}
+
+.blog .best-seller article h4{
+    font-size: 13px;
+    margin-bottom: 0;
+}
+
+.blog .best-seller article a{
+    color: #313131;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    
+}
+
+.blog .best-seller article p{
+     color: #539e22; 
+}
+
+.blog .best-seller article span{
+    margin-left: 10px;
+    margin-right: 5px;
+    color: #539e22;
+}
+
+.blog .best-seller article a:hover {
+    border: none;
+    background-color: transparent;
+    color: #313131;
+    text-decoration: underline;
+}
+/* END OF ARTICLE STYLES*/
+
+.pet-list{
+    background-color: #fff;
+    padding-top: 0;
+}
+
+.pet-list .headline{
+    margin-bottom: 30px;
+}
+
+.pet-list .headline h3{
+    margin-top: 0;
+}
+
+.pet-list .all-pets{
+    margin-bottom: 20px;
+}
+
+.pet-list .all-pets a{
+    display: inline-block;
+    border: 1px solid #d1d1d1;
+    color: #999999;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 20px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    transition: 1s ease;
+}
+
+.pet-list .all-pets a:last-of-type{
+    margin-right: 0;
+}
+
+.pet-list .all-pets a:hover,
+.pet-list .all-pets a:focus{
+    border: 1px solid #777777;
+    color: #777777;
+    text-decoration: none;
+}
+
+.pet-list .shop-product{
+    background-color: #f0f0f0;
+}
+

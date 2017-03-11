@@ -16,9 +16,7 @@
         <link href="css/style.css" rel="stylesheet" type="text/css"/>
         <link href="css/responsive.css" rel="stylesheet" type="text/css"/>
         <!---custom---->
-        <link href="css/jquery.bxslider.css" rel="stylesheet" />
-        <!---custom---->
-        <link href="css/owl.carousel.css" rel="stylesheet" type="text/css"/>
+
 
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -206,61 +204,109 @@
                 <div class="container">
                     <div class="row">
 
-                        <div class="col-sm-4 col-md-3">
+                        <div class="col-sm-4 col-md-3 lists">
                             <aside>
-                                <h3>post category</h3>
-                                <ul>
+                                <h3>select pet</h3>
+                                <ul style="list-style: square url('img/bullet.png');">
                                     <li>
-                                        <a href="#">all kind of birds</a>
+                                        <a href="#">maltese</a>
                                     </li>
                                     <li>
-                                        <a href="#">breed of cats</a>
+                                        <a href="#">pit bull</a>
                                     </li>
                                     <li>
-                                        <a href="#">exporting breeds</a>
+                                        <a href="#">sled dogs</a>
                                     </li>
                                     <li>
-                                        <a href="#">friendly pets</a>
+                                        <a href="#">purebred</a>
                                     </li>
                                     <li>
-                                        <a href="#">hunters pet</a>
+                                        <a href="#">coonhound</a>
                                     </li>
                                     <li>
-                                        <a href="#">saller of the day</a>
+                                        <a href="#">molosser</a>
                                     </li>
                                 </ul>
                             </aside>
                             <aside>
-                                
+                                <h3 class="filter-by-price">filter by price</h3>
+                                <!-- <div class="well">
+           Filter by price interval: <b>€ 10</b> <div class="slider slider-horizontal" style="width: 414px;"><div class="slider-track"><div class="slider-selection" style="left: 13.6364%; width: 30.8081%;"></div><div class="slider-handle round" style="left: 13.6364%;"></div><div class="slider-handle round" style="left: 44.4444%;"></div></div><div class="tooltip top" style="top: -40px; left: 89.7273px;"><div class="tooltip-arrow"></div><div class="tooltip-inner">145 : 450</div></div><input type="text" class="span2" value="" data-slider-min="10" data-slider-max="1000" data-slider-step="5" data-slider-value="[250,450]" id="sl2"></div> <b>€ 1000</b>
+         </div> -->
+
                             </aside>
                             <aside>
-                                <h3>archives</h3>
-                                <ul>
+                                <h3 class="product-cat">product categories</h3>
+                                <ul style="list-style: square url('img/bullet.png');">
                                     <li>
-                                        <a href="#">december 2016</a>
+                                        <a href="#">E-pet</a>
                                     </li>
                                     <li>
-                                        <a href="#">january 2017</a>
+                                        <a href="#">healty pet food</a>
                                     </li>
                                     <li>
-                                        <a href="#">february 2017</a>
+                                        <a href="#">nutro pet</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">pet daisy</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">pets</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">pet store</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">shoppy pets</a>
                                     </li>
                                 </ul>
                             </aside>
                             <aside>
-                                <h3>popular tags</h3>
-                                <div>
-                                    <a href="#">audio</a>
-                                    <a href="#">checkup</a>
-                                    <a href="#">food</a>
-                                    <a href="#">gallery</a>
-                                    <a href="#">pets</a>
-                                    <a href="#">veterinary</a>
-                                </div>
+                                <h3 class="best">best sellers</h3>
+                                <ul style="list-style: none; padding-left: 0;">
+                                    <li>
+                                        <div class="clearfix best-seller">
+                                            <figure>
+
+                                                <img src="img/shop-img/shop02.jpg" alt="" class="img-responsive"/>
+
+                                            </figure>
+                                            <article>
+                                                <h4><a href="#">pet harness</a></h4>
+                                                <p><span class="fa fa-eur"></span>120.00</p>
+                                            </article>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="clearfix best-seller">
+                                            <figure>
+
+                                                <img src="img/shop-img/shop04.jpg" alt="" class="img-responsive"/>
+
+                                            </figure>
+                                            <article>
+                                                <h4><a href="#">pet outfit</a></h4>
+                                                <p><span class="fa fa-eur"></span>450.00</p>
+                                            </article>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="clearfix best-seller">
+                                            <figure>
+                                                <img src="img/shop-img/shop03.jpg" alt="" class="img-responsive"/>
+
+                                            </figure>
+                                            <article>
+                                                <h4><a href="#">pet toys</a></h4>
+                                                <p><span class="fa fa-eur"></span>90.00</p>
+                                            </article>
+                                        </div>
+                                    </li>
+                                </ul>
                             </aside>
                         </div>
 
-                        <div class="col-sm-8 col-md-9 shop1">
+                        <div class="col-sm-8 col-md-9 shop1 pet-list">
 
                             <div class="headline text-center">
                                 <h3>our best quality products</h3>
@@ -270,58 +316,12 @@
                                 </p>
                             </div>
                             <div class="row" >
-                                <div class="col-sm-6 col-md-4 center-block">
-                                    <div class="shop-product">
-                                        <div class="product-image">
-                                            <img src="img/shop-img/shop01.jpg" alt="" class="img-responsive"/>
-                                            <div class="shop-links">
-                                                <a href="#" class="btn btn-default"><span class="fa fa-shopping-basket"></span>add to cart</a>
-                                                <a href="#" class="shop1-like"><span class="fa fa-heart-o"></span>15</a>
-                                            </div>
-                                        </div>
-                                        <h4>pet out fits</h4>
-                                        <p class="text-right"><span class="fa fa-eur"></span>970.00</p>
-                                    </div>
-
-                                </div>
-                                <div class="col-sm-6 col-md-4">
-                                    <div class="shop-product">
-                                        <div class="product-image">
-                                            <img src="img/shop-img/shop02.jpg" alt="" class="img-responsive"/>
-                                            <div class="shop-links">
-                                                <a href="#" class="btn btn-default"><span class="fa fa-shopping-basket"></span>add to cart</a>
-                                                <a href="#" class="shop1-like"><span class="fa fa-heart-o"></span>15</a>
-                                            </div>
-                                        </div>
-                                        <h4>pet harness</h4>
-                                        <p class="text-right"><span class="fa fa-eur"></span>120.00</p>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6 col-md-4">
-                                    <div class="shop-product">
-                                        <div class="product-image">
-                                            <img src="img/shop-img/shop03.jpg" alt="" class="img-responsive"/>
-                                            <div class="shop-links">
-                                                <a href="#" class="btn btn-default"><span class="fa fa-shopping-basket"></span>add to cart</a>
-                                                <a href="#" class="shop1-like"><span class="fa fa-heart-o"></span>15</a>
-                                            </div>
-                                        </div>
-                                        <h4>pet toys</h4>
-                                        <p class="text-right"><span class="fa fa-eur"></span>97.00</p>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6 col-md-4">
-                                    <div class="shop-product">
-                                        <div class="product-image">
-                                            <img src="img/shop-img/shop04.jpg" alt="" class="img-responsive"/>
-                                            <div class="shop-links">
-                                                <a href="#" class="btn btn-default"><span class="fa fa-shopping-basket"></span>add to cart</a>
-                                                <a href="#" class="shop1-like"><span class="fa fa-heart-o"></span>15</a>
-                                            </div>
-                                        </div>
-                                        <h4>pet out fits</h4>
-                                        <p class="text-right"><span class="fa fa-eur"></span>230.00</p>
-                                    </div>
+                                <div class="all-pets text-center">
+                                    <a href="#">all</a>
+                                    <a href="#">hunting</a>
+                                    <a href="#">companion</a>
+                                    <a href="#">hairless</a>
+                                    <a href="#">fluffy hair</a>
                                 </div>
                                 <div class="col-sm-6 col-md-4 center-block">
                                     <div class="shop-product">
@@ -376,10 +376,63 @@
                                         <p class="text-right"><span class="fa fa-eur"></span>230.00</p>
                                     </div>
                                 </div>
+                                <div class="col-sm-6 col-md-4 center-block">
+                                    <div class="shop-product">
+                                        <div class="product-image">
+                                            <img src="img/shop-img/shop05.jpg" alt="" class="img-responsive"/>
+                                            <div class="shop-links">
+                                                <a href="#" class="btn btn-default"><span class="fa fa-shopping-basket"></span>add to cart</a>
+                                                <a href="#" class="shop1-like"><span class="fa fa-heart-o"></span>15</a>
+                                            </div>
+                                        </div>
+                                        <h4>pet out fits</h4>
+                                        <p class="text-right"><span class="fa fa-eur"></span>970.00</p>
+                                    </div>
+
+                                </div>
                                 <div class="col-sm-6 col-md-4">
                                     <div class="shop-product">
                                         <div class="product-image">
-                                            <img src="img/shop-img/shop04.jpg" alt="" class="img-responsive"/>
+                                            <img src="img/shop-img/shop06.jpg" alt="" class="img-responsive"/>
+                                            <div class="shop-links">
+                                                <a href="#" class="btn btn-default"><span class="fa fa-shopping-basket"></span>add to cart</a>
+                                                <a href="#" class="shop1-like"><span class="fa fa-heart-o"></span>15</a>
+                                            </div>
+                                        </div>
+                                        <h4>pet harness</h4>
+                                        <p class="text-right"><span class="fa fa-eur"></span>120.00</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-4">
+                                    <div class="shop-product">
+                                        <div class="product-image">
+                                            <img src="img/shop-img/shop07.jpg" alt="" class="img-responsive"/>
+                                            <div class="shop-links">
+                                                <a href="#" class="btn btn-default"><span class="fa fa-shopping-basket"></span>add to cart</a>
+                                                <a href="#" class="shop1-like"><span class="fa fa-heart-o"></span>15</a>
+                                            </div>
+                                        </div>
+                                        <h4>pet toys</h4>
+                                        <p class="text-right"><span class="fa fa-eur"></span>97.00</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-4">
+                                    <div class="shop-product">
+                                        <div class="product-image">
+                                            <img src="img/shop-img/shop08.jpg" alt="" class="img-responsive"/>
+                                            <div class="shop-links">
+                                                <a href="#" class="btn btn-default"><span class="fa fa-shopping-basket"></span>add to cart</a>
+                                                <a href="#" class="shop1-like"><span class="fa fa-heart-o"></span>15</a>
+                                            </div>
+                                        </div>
+                                        <h4>pet out fits</h4>
+                                        <p class="text-right"><span class="fa fa-eur"></span>230.00</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-4">
+                                    <div class="shop-product">
+                                        <div class="product-image">
+                                            <img src="img/shop-img/shop09.jpg" alt="" class="img-responsive"/>
                                             <div class="shop-links">
                                                 <a href="#" class="btn btn-default"><span class="fa fa-shopping-basket"></span>add to cart</a>
                                                 <a href="#" class="shop1-like"><span class="fa fa-heart-o"></span>15</a>
@@ -392,7 +445,7 @@
                                 <div class="col-sm-6 col-md-4 center-block">
                                     <div class="shop-product">
                                         <div class="product-image">
-                                            <img src="img/shop-img/shop01.jpg" alt="" class="img-responsive"/>
+                                            <img src="img/shop-img/shop10.jpg" alt="" class="img-responsive"/>
                                             <div class="shop-links">
                                                 <a href="#" class="btn btn-default"><span class="fa fa-shopping-basket"></span>add to cart</a>
                                                 <a href="#" class="shop1-like"><span class="fa fa-heart-o"></span>15</a>
@@ -443,6 +496,26 @@
                                     </div>
                                 </div>
                             </div>
+
+                            <nav aria-label="Page navigation" class="text-center">
+                                <ul class="pagination">
+                                    <li>
+                                        <a href="#" aria-label="Previous">
+                                            <span aria-hidden="true">&laquo;</span>
+                                        </a>
+                                    </li>
+                                    <li class="active"><a href="#">1</a></li>
+                                    <li><a href="#">2</a></li>
+                                    <li><a href="#">3</a></li>
+                                    <li><a href="#">4</a></li>
+                                    <li><a href="#">5</a></li>
+                                    <li>
+                                        <a href="#" aria-label="Next">
+                                            <span aria-hidden="true">&raquo;</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
                         </div>
                     </div>
                 </div>
@@ -595,12 +668,12 @@
                                         Get our Daily email newsletter with 
                                         Special Services, Updates, Offers and more!
                                     </p>
-                                    <form class="form-inline">
-                                        <div class="form-group">
-                                            <input type="email" class="form-control" id="exampleInputEmail2" placeholder="EMAIL ADRESS">
-                                        </div>
-                                        <button type="submit" class="btn btn-default">sign up</button>
-                                    </form>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" placeholder="Your e-mail">
+                                        <span class="input-group-btn">
+                                            <button class="btn btn-default" type="button">Go</button>
+                                        </span>
+                                    </div><!-- /input-group -->
 
                                 </div>
 
@@ -676,9 +749,7 @@
 
         <script src="js/bootstrap.min.js"></script>
         <!---custom---->
-        <script src="js/jquery.bxslider.js"></script>
-        <!---custom---->
-        <script src="js/owl.carousel.js" type="text/javascript"></script>
+
 
 
 
