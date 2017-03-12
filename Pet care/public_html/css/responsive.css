@@ -134,6 +134,11 @@ and open the template in the editor.
     .footer3 .col-sm-7 p{
         text-align: right;
     }
+    /*END OF SECTION FOOTER3*/
+    
+    .single-product-description a{
+    display: inline-block;
+}
 
 
 
@@ -176,8 +181,11 @@ and open the template in the editor.
     .footer1 .col-md-8{
         text-align: right;
     }
+   /*END OF FOOTER1 SECTION*/
 
-
+.single-product-description a{
+    margin-right: 10px;
+}
 
 
 

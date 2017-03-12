@@ -2270,4 +2270,192 @@ PET LIST PAGE
 .pet-list .shop-product{
     background-color: #f0f0f0;
 }
+/* 
 
+END OF PET LIST PAGE 
+
+*/
+
+/* 
+
+PRODUCT DETAIL PAGE
+
+*/
+
+.single-product figure{
+    width: 40%;
+    float: left;
+}
+
+.single-product .single-product-description{
+    width: 60%;
+    float: right;
+    padding-left: 10px;
+}
+
+.single-product .single-product-description h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #222222;
+}
+
+.single-product .single-product-description .price{
+     color: #222222;
+     font-family: 'Montserrat', sans-serif;
+     font-size: 18px;
+}
+
+.single-product .single-product-description .price span{
+    margin-right: 5px;
+}
+
+.single-product-description a{
+    display: block;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    color: #868686;
+    text-transform: capitalize;
+}
+
+.single-product-description a:hover,
+.single-product-description a:focus{
+    text-decoration: underline;
+}
+
+.single-product-description .fa-star{
+    color: #ffba00;
+}
+.single-product-description .fa-star-half-full{
+     color: #ffba00;
+}
+
+.single-product-text{
+    color: #818181;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    padding: 5px;
+    border-bottom: 1px solid #818181;
+    border-top: 1px solid #818181;
+    line-height: 22px;
+    height: 66px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.single-product-description .form-control {
+    color: #222222;
+    border: 1px solid #e9eaee;
+    border-radius: 0px;
+    box-shadow: none;
+}
+
+.single-product-description .btn-default {
+    color: #fff;
+    background-color: #ffba00;
+    border-color: #ffba00;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-family: 'Oxygen', sans-serif;
+    transition: 1s ease;
+}
+
+.single-product-description .btn-default .fa{
+    margin-right: 5px;
+}
+
+.single-product-description .btn-default:hover,
+.single-product-description .btn-default:focus{
+    background-color: #fff;
+    color: #ffba00;
+}
+
+.availability{
+    margin-top: 10px;
+    text-transform: uppercase;
+    color: #222222;
+     font-family: 'Montserrat', sans-serif;
+}
+
+.headline-product-detail h3{
+    font-size: 20px;
+}
+
+.headline-product-detail p{
+    font-size: 13px;
+}
+/* 
+
+END OF PRODUCT DETAIL PAGE 
+
+*/
+
+/* 
+
+CONTACT PAGE
+
+*/
+
+.map{
+    height: 400px;
+    position: relative;
+}
+
+.map iframe{
+    width: 100%;
+    height: 100%;
+}
+
+.map .map-shadow{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.map span{
+    position: absolute;
+    top: 25%;
+    left: 60%;
+    z-index: 2;
+    font-size: 40px;
+    color: #c42616;
+    
+}
+
+.contact-form{
+    padding: 50px 0;
+}
+
+.contact-form .form-control {
+    border-radius: 0px;
+    box-shadow: none;
+}
+
+.contact-form .form-control:focus {
+    border-color: #1377c5;
+    box-shadow: none
+}
+
+.contact-form form{
+    text-align: center;
+}
+
+.contact-form .btn-default {
+    color: #fff;
+    background-color: #1377c5;
+    border-color: #1377c5;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    padding: 6px 30px;
+    transition: 1s ease;
+}
+
+.contact-form .btn-default:hover{
+    background-color: #0e4773;
+    border-color: #0e4773;
+}
