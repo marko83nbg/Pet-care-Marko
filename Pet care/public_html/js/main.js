@@ -79,12 +79,79 @@ $(document).ready(function () {
             $(this).addClass(animationName);
         }
     });
-
-
-
-
-
 $("#ex2").slider({});
+
+/* form */
+
+function formValidation(){
+
+var name = $('.user-name').value;
+var lastName = $('.user-lastname').value;
+var phoneNumber = $('.phone-number').value;
+var email = $('.user-email').value;
+var subject = $ ('.subject').value;
+
+if(name === ""){
+    $('.user-name').style.border = "1px solid red";
+    $('.name-error').innerHTML = 'Please fill out this field';
+    return;
+}else if(name.length<3 || name.length>10){
+    $('.user-name').style.border = "1px solid red";
+    $('.name-error').innerHTML = 'This field must contain between 3 and 10 characters';
+    return;
+}else{
+    $('.user-name').style.border = "1px solid #ccc";
+    $('.name-error').innerHTML = '';
+}
+
+if(lastName === ""){
+    $('.user-lastname').style.border = "1px solid red";
+    $('.lastname-error').innerHTML = 'Please fill out this field';
+    return;
+}else if(lastName.length<3 || lastName.length>10){
+    $('.user-lastname').style.border = "1px solid red";
+    $('.lastname-error').innerHTML = 'This field must contain between 3 and 10 characters';
+    return;
+}else{
+    $('.user-lastname').style.border = "1px solid #ccc";
+    $('.lastname-error').innerHTML = '';
+}
+
+if(phoneNumber === ""){
+    $('.phone-number').style.border = "1px solid red";
+    $('.phone-error').innerHTML = 'Please fill out this field';
+    return;
+}else if(isNaN(phoneNumber)){
+    $('.phone-number').style.border = "1px solid red";
+    $('.phone-error').innerHTML = 'Please type numbers only';
+    return;
+}else{
+    $('.phone-number').style.border = "1px solid #ccc";
+    $('.phone-error').innerHTML = '';
+}
+
+if(email === ""){
+    $('.user-email').style.border = "1px solid red";
+    $('.email-error').innerHTML = 'Please fill out this field';
+    return;
+}else{
+    $('.user-email').style.border = "1px solid #ccc";
+    $('.email-error').innerHTML = '';
+}
+
+if(subject === ""){
+    $('.subject').style.border = "1px solid red";
+    $('.subject-error').innerHTML = 'Please fill out this field';
+    return;
+}else{
+    $('.subject').style.border = "1px solid #ccc";
+    $('.subject-error').innerHTML = '';
+}
+
+
+
+}
+
 
 });
 

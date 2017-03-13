@@ -140,6 +140,12 @@ and open the template in the editor.
     display: inline-block;
 }
 
+.tabs .nav-tabs > li > a {
+    padding: 10px;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
 
 
 
@@ -186,6 +192,8 @@ and open the template in the editor.
 .single-product-description a{
     margin-right: 10px;
 }
+
+
 
 
 
