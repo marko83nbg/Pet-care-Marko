@@ -13,9 +13,13 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Oxygen:300,400,700&amp;subset=latin-ext" rel="stylesheet"> 
         <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+        <!---custom---->
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.10.4/themes/flick/jquery-ui.css">
+        <link href="css/jquery-ui-slider-pips.css" rel="stylesheet" type="text/css"/>
+        
         <link href="css/style.css" rel="stylesheet" type="text/css"/>
         <link href="css/responsive.css" rel="stylesheet" type="text/css"/>
-        <!---custom---->
+        
 
 
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -204,107 +208,9 @@
                 <div class="container">
                     <div class="row">
 
-                        <div class="col-sm-4 col-md-3 lists">
-                            <aside>
-                                <h3>select pet</h3>
-                                <ul style="list-style: square url('img/bullet.png');">
-                                    <li>
-                                        <a href="#">maltese</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">pit bull</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">sled dogs</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">purebred</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">coonhound</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">molosser</a>
-                                    </li>
-                                </ul>
-                            </aside>
-                            <aside>
-                                <h3 class="filter-by-price">filter by price</h3>
-                                <b>€ 10</b> <input id="ex2" type="text" class="span2" value="" data-slider-min="10" data-slider-max="1000" data-slider-step="5" data-slider-value="[250,450]"/> <b>€ 1000</b>
+                        
 
-                            </aside>
-                            <aside>
-                                <h3 class="product-cat">product categories</h3>
-                                <ul style="list-style: square url('img/bullet.png');">
-                                    <li>
-                                        <a href="#">E-pet</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">healty pet food</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">nutro pet</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">pet daisy</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">pets</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">pet store</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">shoppy pets</a>
-                                    </li>
-                                </ul>
-                            </aside>
-                            <aside>
-                                <h3 class="best">best sellers</h3>
-                                <ul style="list-style: none; padding-left: 0;">
-                                    <li>
-                                        <div class="clearfix best-seller">
-                                            <figure>
-
-                                                <img src="img/shop-img/shop02.jpg" alt="" class="img-responsive"/>
-
-                                            </figure>
-                                            <article>
-                                                <h4><a href="#">pet harness</a></h4>
-                                                <p><span class="fa fa-eur"></span>120.00</p>
-                                            </article>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="clearfix best-seller">
-                                            <figure>
-
-                                                <img src="img/shop-img/shop04.jpg" alt="" class="img-responsive"/>
-
-                                            </figure>
-                                            <article>
-                                                <h4><a href="#">pet outfit</a></h4>
-                                                <p><span class="fa fa-eur"></span>450.00</p>
-                                            </article>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="clearfix best-seller">
-                                            <figure>
-                                                <img src="img/shop-img/shop03.jpg" alt="" class="img-responsive"/>
-
-                                            </figure>
-                                            <article>
-                                                <h4><a href="#">pet toys</a></h4>
-                                                <p><span class="fa fa-eur"></span>90.00</p>
-                                            </article>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </aside>
-                        </div>
-
-                        <div class="col-sm-8 col-md-9">
+                        <div class="col-sm-8 col-md-9 col-sm-push-4 col-md-push-3">
 
                             <div class="single-product clearfix">
                                 <figure>
@@ -433,6 +339,107 @@
 
                                 </div>
                             </div>
+                        </div>
+                        
+                        
+                        <div class="col-sm-4 col-md-3 col-sm-pull-8 col-md-pull-9 lists">
+                            <aside>
+                                <h3>select pet</h3>
+                                <ul style="list-style: square url('img/bullet.png');">
+                                    <li>
+                                        <a href="#">maltese</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">pit bull</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">sled dogs</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">purebred</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">coonhound</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">molosser</a>
+                                    </li>
+                                </ul>
+                            </aside>
+                            <aside class="price-filter">
+                                <h3 class="filter-by-price">filter by price</h3>
+                                <div class="slider"></div>
+
+                            </aside>
+                            <aside>
+                                <h3 class="product-cat">product categories</h3>
+                                <ul style="list-style: square url('img/bullet.png');">
+                                    <li>
+                                        <a href="#">E-pet</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">healty pet food</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">nutro pet</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">pet daisy</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">pets</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">pet store</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">shoppy pets</a>
+                                    </li>
+                                </ul>
+                            </aside>
+                            <aside>
+                                <h3 class="best">best sellers</h3>
+                                <ul style="list-style: none; padding-left: 0;">
+                                    <li>
+                                        <div class="clearfix best-seller">
+                                            <figure>
+
+                                                <img src="img/shop-img/shop02.jpg" alt="" class="img-responsive"/>
+
+                                            </figure>
+                                            <article>
+                                                <h4><a href="#">pet harness</a></h4>
+                                                <p><span class="fa fa-eur"></span>120.00</p>
+                                            </article>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="clearfix best-seller">
+                                            <figure>
+
+                                                <img src="img/shop-img/shop04.jpg" alt="" class="img-responsive"/>
+
+                                            </figure>
+                                            <article>
+                                                <h4><a href="#">pet outfit</a></h4>
+                                                <p><span class="fa fa-eur"></span>450.00</p>
+                                            </article>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="clearfix best-seller">
+                                            <figure>
+                                                <img src="img/shop-img/shop03.jpg" alt="" class="img-responsive"/>
+
+                                            </figure>
+                                            <article>
+                                                <h4><a href="#">pet toys</a></h4>
+                                                <p><span class="fa fa-eur"></span>90.00</p>
+                                            </article>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </aside>
                         </div>
 
 
@@ -667,8 +674,8 @@
 
         <script src="js/bootstrap.min.js"></script>
         <!---custom---->
-
-
+        <script src="https://code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
+        <script src="js/jquery-ui-slider-pips.js" type="text/javascript"></script>
 
 
 

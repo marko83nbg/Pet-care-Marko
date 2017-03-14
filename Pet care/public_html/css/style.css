@@ -1806,6 +1806,10 @@ BLOG PAGE
     margin-top: 30px;
 }
 
+.blog .price-filter div{
+    margin-top: 0;
+}
+
 .blog aside div a{
     display: inline-block;
     padding: 5px 10px;
@@ -2182,6 +2186,18 @@ PET LIST PAGE
 .blog .lists .filter-by-price{
     background-color: #539e22;
     border: 1px solid #539e22;
+    margin-bottom: 40px;
+}
+
+.ui-state-default, 
+.ui-widget-content .ui-state-default, 
+.ui-widget-header .ui-state-default {
+    border: 1px solid #539e22;
+    background: #539e22;
+    font-weight: bold;
+    color: #539e22;
+    border-radius: 50%;
+    outline: none;
 }
 
 .blog .lists .product-cat{
@@ -2285,6 +2301,8 @@ PET LIST PAGE
 .pet-list .shop-product{
     background-color: #f0f0f0;
 }
+
+
 /* 
 
 END OF PET LIST PAGE 
