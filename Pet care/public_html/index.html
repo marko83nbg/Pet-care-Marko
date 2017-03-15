@@ -127,18 +127,22 @@
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                                     </div>
                                     <div class="modal-body">
-                                        <form>
+                                        <form data-toggle="validator" role="form" method="get" action="">
                                             <div class="form-group col-sm-3">
-                                                <input class="form-control" type="text" placeholder="First Name">
+                                                <input class="form-control" type="text" placeholder="First Name" pattern="^[_A-z]{1,}$" data-minlength="3" maxlength="10" value="" data-error="Please fill out this field." required>
+                                                <div class="help-block with-errors error"></div>
                                             </div>
                                             <div class="form-group col-sm-3">
-                                                <input class="form-control" type="text" placeholder="Last Name">
+                                                <input class="form-control" type="text" placeholder="Last Name" pattern="^[_A-z]{1,}$" data-minlength="3" maxlength="15" value="" data-error="Please fill out this field." required>
+                                                <div class="help-block with-errors error"></div>
                                             </div>
                                             <div class="form-group col-sm-3">
-                                                <input class="form-control" type="email" placeholder="Email">
+                                                <input class="form-control" type="email" placeholder="Email" pattern="^[_A-z0-9]{1,}$" value="" data-error="Please fill out this field." required>
+                                                <div class="help-block with-errors error"></div>
                                             </div>
                                             <div class="form-group col-sm-3">
-                                                <input class="form-control" type="text" placeholder="Phone Number">
+                                                <input class="form-control" type="text" placeholder="Phone Number" pattern="^[_0-9]{1,}$" value="" data-error="This field must contain numbers only." required>
+                                                <div class="help-block with-errors error"></div>
                                             </div>
                                             <div class="form-group col-sm-12 comment">
                                                 <textarea class="form-control" placeholder="Any thing we should know about your pet?"></textarea>
@@ -386,19 +390,23 @@
                                 They will have to make the best of things its an uphill climb
                             </p>
                         </div>
-                        <form>
+                        <form data-toggle="validator" role="form" method="get" action="">
                             <div class="row">
                                 <div class="form-group col-md-3">
-                                    <input class="form-control" type="text" placeholder="First Name">
+                                    <input class="form-control" type="text" placeholder="First Name" pattern="^[_A-z]{1,}$" data-minlength="3" maxlength="10" value="" data-error="Please fill out this field." required>
+                                    <div class="help-block with-errors error"></div>
                                 </div>
                                 <div class="form-group col-md-3">
-                                    <input class="form-control" type="text" placeholder="Last Name">
+                                    <input class="form-control" type="text" placeholder="Last Name" pattern="^[_A-z]{1,}$" data-minlength="3" maxlength="15" value="" data-error="Please fill out this field." required>
+                                    <div class="help-block with-errors error"></div>
                                 </div>
                                 <div class="form-group col-md-3">
-                                    <input class="form-control" type="text" placeholder="E-mail">
+                                    <input class="form-control" type="text" placeholder="E-mail" pattern="^[_A-z0-9]{1,}$" value="" data-error="Please fill out this field." required>
+                                    <div class="help-block with-errors error"></div>
                                 </div>
                                 <div class="form-group col-md-3">
-                                    <input class="form-control" type="text" placeholder="Phone Number">
+                                    <input class="form-control" type="text" placeholder="Phone Number" pattern="^[_0-9]{1,}$" value="" data-error="This field must contain numbers only." required>
+                                    <div class="help-block with-errors error"></div>
                                 </div>
                                 <div class="form-group col-md-12">
                                     <textarea class="form-control" placeholder="Any thing we should know about your pet?"></textarea>
@@ -1424,13 +1432,12 @@
         <!-- Include all compiled plugins (below), or include individual files as needed -->
 
         <script src="js/bootstrap.min.js"></script>
-        <!---custom---->
+        <!-- custom -->
         <script src="js/jquery.bxslider.js"></script>
-        <!---custom---->
+        <!-- custom -->
         <script src="js/owl.carousel.js" type="text/javascript"></script>
-
-
-
+        <!-- custom -->
+        <script src="js/validator.js" type="text/javascript"></script>
 
 
         <script src="js/main.js" type="text/javascript"></script>

@@ -1,5 +1,37 @@
 $(document).ready(function () {
     
+
+    
+    /*cart quantity*/
+    if ($('.order-quantity').length>0){
+    $('.minus').click(function(){
+       var quantity = $(this).next().val();
+       var checkQuantity = isNaN(checkQuantity); 
+       if(quantity < 2 || checkQuantity == true){
+           $(this).next().val(1);
+       }
+       else{
+           quantity = parseInt(quantity);
+           quantity -= 1;
+           $(this).next().val(quantity);
+       }
+   });
+   
+   $('.plus').click(function(){
+       var quantity = $(this).prev().val();
+       var checkQuantity = isNaN(quantity);
+       if(checkQuantity == false){
+           quantity = parseInt(quantity);
+           quantity += 1;
+           $(this).prev().val(quantity);
+       }else{
+          
+           $(this).prev().val(1);
+       }
+   });
+    }
+    
+    
     if ($('.price-filter').length>0){
     $(".slider")
             .slider({
@@ -100,79 +132,14 @@ $(document).ready(function () {
         //Initialize filterizr with default options
         $('.filtr-container').filterizr();
     });
+    
+
+    
+    
+    
 
 
-
-    /* form */
-
-    function formValidation() {
-
-        var name = $('.user-name').value;
-        var lastName = $('.user-lastname').value;
-        var phoneNumber = $('.phone-number').value;
-        var email = $('.user-email').value;
-        var subject = $('.subject').value;
-
-        if (name === "") {
-            $('.user-name').style.border = "1px solid red";
-            $('.name-error').innerHTML = 'Please fill out this field';
-            return;
-        } else if (name.length < 3 || name.length > 10) {
-            $('.user-name').style.border = "1px solid red";
-            $('.name-error').innerHTML = 'This field must contain between 3 and 10 characters';
-            return;
-        } else {
-            $('.user-name').style.border = "1px solid #ccc";
-            $('.name-error').innerHTML = '';
-        }
-
-        if (lastName === "") {
-            $('.user-lastname').style.border = "1px solid red";
-            $('.lastname-error').innerHTML = 'Please fill out this field';
-            return;
-        } else if (lastName.length < 3 || lastName.length > 10) {
-            $('.user-lastname').style.border = "1px solid red";
-            $('.lastname-error').innerHTML = 'This field must contain between 3 and 10 characters';
-            return;
-        } else {
-            $('.user-lastname').style.border = "1px solid #ccc";
-            $('.lastname-error').innerHTML = '';
-        }
-
-        if (phoneNumber === "") {
-            $('.phone-number').style.border = "1px solid red";
-            $('.phone-error').innerHTML = 'Please fill out this field';
-            return;
-        } else if (isNaN(phoneNumber)) {
-            $('.phone-number').style.border = "1px solid red";
-            $('.phone-error').innerHTML = 'Please type numbers only';
-            return;
-        } else {
-            $('.phone-number').style.border = "1px solid #ccc";
-            $('.phone-error').innerHTML = '';
-        }
-
-        if (email === "") {
-            $('.user-email').style.border = "1px solid red";
-            $('.email-error').innerHTML = 'Please fill out this field';
-            return;
-        } else {
-            $('.user-email').style.border = "1px solid #ccc";
-            $('.email-error').innerHTML = '';
-        }
-
-        if (subject === "") {
-            $('.subject').style.border = "1px solid red";
-            $('.subject-error').innerHTML = 'Please fill out this field';
-            return;
-        } else {
-            $('.subject').style.border = "1px solid #ccc";
-            $('.subject-error').innerHTML = '';
-        }
-
-
-
-    }
+  
 
 
 

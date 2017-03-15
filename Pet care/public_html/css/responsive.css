@@ -99,13 +99,13 @@ and open the template in the editor.
     .offer .special{
         float: left;
     }
-    
+
     .offer .discount{
         float: right;
     }
     /*END OF SECTION OFFER*/
-    
-    
+
+
     .shop2 article .shop-comment,
     .shop2 article .like,
     .shop2 article .share{
@@ -135,16 +135,28 @@ and open the template in the editor.
         text-align: right;
     }
     /*END OF SECTION FOOTER3*/
+
+
+    .single-product figure{
+        width: 40%;
+        float: left;
+    }
+    
+    .single-product .single-product-description{
+    width: 60%;
+    float: right;
+    padding-left: 10px;
+}
     
     .single-product-description a{
-    display: inline-block;
-}
+        display: inline-block;
+    }
 
-.tabs .nav-tabs > li > a {
-    padding: 10px;
-    font-size: 14px;
-    margin-right: 10px;
-}
+    .tabs .nav-tabs > li > a {
+        padding: 10px;
+        font-size: 14px;
+        margin-right: 10px;
+    }
 
 
 
@@ -180,18 +192,18 @@ and open the template in the editor.
 
     .shop1 .shop-links .shop1-like{
         top:80%;
-        
+
     }
     /*END OF SHOP1 SECTION*/
 
     .footer1 .col-md-8{
         text-align: right;
     }
-   /*END OF FOOTER1 SECTION*/
+    /*END OF FOOTER1 SECTION*/
 
-.single-product-description a{
-    margin-right: 10px;
-}
+    .single-product-description a{
+        margin-right: 10px;
+    }
 
 
 
@@ -202,7 +214,7 @@ and open the template in the editor.
 @media(min-width:1200px){
     .shop1 .shop-links .shop1-like{
         top:80%;
-     
+
     }
 
 }

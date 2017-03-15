@@ -52,6 +52,7 @@ a:hover{
     display: inline-block;
 
 }
+
 .social ul .fa{
     color: #959595;
     font-size: 20px;
@@ -673,7 +674,8 @@ a:hover{
 }
 
 .services .tab-pane{
-    min-height:200px;
+    max-height: 200px;
+    overflow: hidden;
 }
 .animation{
     visibility: hidden;
@@ -1434,7 +1436,7 @@ a:hover{
     line-height: 22px;
     border-bottom: 1px solid #8d8d8d;
     padding-bottom: 15px;
-    height: 110px;
+    height: 125px;
     overflow: hidden;
 }
 
@@ -1897,6 +1899,10 @@ SINGLE BLOG PAGE
 */
 
 
+.single-blog .bottom-paragraf{
+    height: 143px !important;
+}
+
 .single-blog .headline h3{
     margin-top: 0px;
 }
@@ -1931,6 +1937,7 @@ SINGLE BLOG PAGE
     float: right;
     padding-left: 10px;
     font-style: italic;
+    height: 137px !important;
 }
 
 .single-blog-gallery{
@@ -2316,14 +2323,16 @@ PRODUCT DETAIL PAGE
 */
 
 .single-product figure{
-    width: 40%;
-    float: left;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.single-product figure img{
+    width: 100%;
 }
 
 .single-product .single-product-description{
-    width: 60%;
-    float: right;
-    padding-left: 10px;
+    
 }
 
 .single-product .single-product-description h4{
@@ -2374,16 +2383,25 @@ PRODUCT DETAIL PAGE
     border-bottom: 1px solid #818181;
     border-top: 1px solid #818181;
     line-height: 22px;
-    height: 66px;
-    overflow: hidden;
     margin-bottom: 20px;
 }
 
+.single-product-description form{
+    text-align: center;
+}
+
+.single-product-description .form-group{
+    display: inline-block;
+}
+
 .single-product-description .form-control {
-    color: #222222;
-    border: 1px solid #e9eaee;
+    color: #ffba00;
+    border: 1px solid #ffba00;
     border-radius: 0px;
     box-shadow: none;
+    display: inline-block;
+    width: 30px;
+    padding: 6px 10px;
 }
 
 .single-product-description .btn-default {
@@ -2530,4 +2548,12 @@ CONTACT PAGE
 .error{
     height: 7px;
     color: red;
+}
+
+.appointment .error{
+    color: #fff;
+}
+
+.modal-body .with-errors{
+    font-size: 8px;
 }
