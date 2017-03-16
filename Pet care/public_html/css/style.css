@@ -2243,11 +2243,11 @@ PET LIST PAGE
     border: none;
     text-transform: uppercase;
     font-weight: 600;
-    
+
 }
 
 .blog .best-seller article p{
-     color: #539e22; 
+    color: #539e22; 
 }
 
 .blog .best-seller article span{
@@ -2332,7 +2332,7 @@ PRODUCT DETAIL PAGE
 }
 
 .single-product .single-product-description{
-    
+
 }
 
 .single-product .single-product-description h4{
@@ -2344,9 +2344,9 @@ PRODUCT DETAIL PAGE
 }
 
 .single-product .single-product-description .price{
-     color: #222222;
-     font-family: 'Montserrat', sans-serif;
-     font-size: 18px;
+    color: #222222;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
 }
 
 .single-product .single-product-description .price span{
@@ -2372,7 +2372,7 @@ PRODUCT DETAIL PAGE
     color: #ffba00;
 }
 .single-product-description .fa-star-half-full{
-     color: #ffba00;
+    color: #ffba00;
 }
 
 .single-product-text{
@@ -2394,17 +2394,19 @@ PRODUCT DETAIL PAGE
     display: inline-block;
 }
 
-.single-product-description .form-control {
+.single-product-description .form-control,
+.product-quantity .form-control{
     color: #ffba00;
     border: 1px solid #ffba00;
     border-radius: 0px;
     box-shadow: none;
     display: inline-block;
-    width: 30px;
+    width: 40px;
     padding: 6px 10px;
 }
 
-.single-product-description .btn-default {
+.single-product-description .btn-default,
+.product-quantity .btn-default{
     color: #fff;
     background-color: #ffba00;
     border-color: #ffba00;
@@ -2412,6 +2414,8 @@ PRODUCT DETAIL PAGE
     text-transform: uppercase;
     font-family: 'Oxygen', sans-serif;
     transition: 1s ease;
+    display: inline-block;
+    vertical-align: top;
 }
 
 .single-product-description .btn-default .fa{
@@ -2428,7 +2432,7 @@ PRODUCT DETAIL PAGE
     margin-top: 10px;
     text-transform: uppercase;
     color: #222222;
-     font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .tabs{
@@ -2508,7 +2512,7 @@ CONTACT PAGE
     z-index: 2;
     font-size: 40px;
     color: #c42616;
-    
+
 }
 
 .contact-form{
@@ -2556,4 +2560,44 @@ CONTACT PAGE
 
 .modal-body .with-errors{
     font-size: 8px;
+}
+/* 
+
+END OF CONTACT PAGE
+
+*/
+
+/* 
+
+CART PAGE
+
+*/
+
+.shopping-cart{
+    padding: 90px 0;
+}
+
+
+
+.shopping-cart .continue{
+    display: block;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    color: #fff;
+    background-color: #ffba00;
+    border: 1px solid #ffba00;
+    text-transform: uppercase;
+    padding: 12px 20px;
+    margin: 0 auto;
+    width: 195px;
+    line-height: 18px;
+    text-align: center;
+    transition: 1s ease;
+    
+}
+
+.shopping-cart .continue:hover{
+    color: #ffba00;
+    background-color: #fff;
 }

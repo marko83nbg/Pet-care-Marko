@@ -4,9 +4,10 @@ $(document).ready(function () {
     
     /*cart quantity*/
     if ($('.order-quantity').length>0){
-    $('.minus').click(function(){
-       var quantity = $(this).next().val();
-       var checkQuantity = isNaN(checkQuantity); 
+    $('.minus').click(function(e){
+        e.preventDefault();
+       var quantity = parseInt($(this).next().val());
+       var checkQuantity = isNaN(quantity); 
        if(quantity < 2 || checkQuantity == true){
            $(this).next().val(1);
        }
@@ -17,7 +18,8 @@ $(document).ready(function () {
        }
    });
    
-   $('.plus').click(function(){
+   $('.plus').click(function(e){
+       e.preventDefault();
        var quantity = $(this).prev().val();
        var checkQuantity = isNaN(quantity);
        if(checkQuantity == false){
