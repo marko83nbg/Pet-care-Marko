@@ -162,11 +162,64 @@ and open the template in the editor.
 .shopping-cart .headline{
     float: left;
     width: 40%;
+    text-align: left;
+
+}
+
+.shopping-cart .headline h3{
+    margin-top: 0px;
 }
 
 .shopping-cart .continue{
     float: right;
 }
+
+.shopping-cart .cart-header{
+    font-size: 10px;
+}
+
+.shopping-cart .product-img{
+    width: 20%;
+    float: left;
+    text-align: center;
+    padding: 5px 10px 10px 10px;
+}
+
+.shopping-cart .product-name{
+    width: 35%;
+    float: left;
+    text-align: center;
+    padding: 5px 0px;
+}
+
+.shopping-cart .product-quantity{
+    width: 15%;
+    float: left;
+    text-align: center;
+    padding: 5px 0px;
+}
+
+.shopping-cart .product-price,
+.shopping-cart .product-subtotal,
+.shopping-cart .product-remove{
+    width: 10%;
+    float: left;
+    text-align: center;
+    padding: 5px 0px;
+}
+
+.shopping-cart .product-wraper{
+    clear: both;
+    width: 100%;
+}
+
+.shopping-cart .cart-footer{
+    text-align: left;
+}
+
+
+
+
 
 
 
