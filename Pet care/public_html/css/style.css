@@ -2677,8 +2677,8 @@ CART PAGE
 
 .product-wraper .product-price p,
 .product-wraper .product-subtotal p{
-     font-size: 18px;
-     font-weight: 500;
+    font-size: 18px;
+    font-weight: 500;
 }
 
 .product-wraper .product-remove a{
@@ -2713,7 +2713,7 @@ CART PAGE
     border-color: #ececec;
     border-radius: 0px;
     transition: 1s ease;
-     margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .cart-footer .btn-default:hover{
@@ -2727,6 +2727,69 @@ CART PAGE
     border-color: #313131;
     color: #fff;
 }
+/* 
+
+END OF CART PAGE
+
+*/
+
+/* 
+
+ERROR PAGE
+
+*/
+
+.error-message{
+    padding: 100px 0px;
+}
+
+.error-message .message{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #222222;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.error-message .message span{
+    font-size: 40px;
+    color: #f44027;
+}
+
+.error-message img{
+    margin: 0 auto;
+}
+
+.error-message .btn{
+    margin-top: 50px;
+    border-radius: 0px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    background-color: #1377c5;
+    border-color: #1377c5;
+    transition: 1s ease;
+
+}
+
+.error-message .btn:hover,
+.error-message .btn:focus{
+    color: #1377c5;
+    background-color: #fff;
+    border-color: #1377c5;
+
+}
+/* 
+
+END OF ERROR PAGE
+
+*/
+
+/* 
+
+LOGIN PAGE
+
+*/
 
 
 
