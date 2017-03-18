@@ -330,7 +330,7 @@
                         </div>
 
                         <div class="col-sm-4">
-                            <article>
+                            <article class="apply">
                                 <h4>
                                     apply coupon code here
                                 </h4>
@@ -339,13 +339,13 @@
                                     <div class="form-group">
                                         <input class="form-control" type="text">
                                     </div>
-                                    <button type="submit">apply code</button>
+                                    <button type="submit" class="btn btn-default">apply code</button>
                                 </form>
                             </article>
                         </div>
 
                         <div class="col-sm-4">
-                            <article>
+                            <article class="estimate">
                                 <h4>
                                     estimate shipping and tax
                                 </h4>
@@ -354,48 +354,53 @@
                                     <div class="form-group">
                                         <label>country*</label>
                                         <select class="form-control">
-                                            <option></option>
-                                            <option></option>
-                                            <option></option>
-                                            <option></option>
-                                            <option></option>
+                                            <option value="">------</option>
+                                            <option value="option1">option1</option>
+                                            <option value="option2">option2</option>
+                                            <option value="option3">option3</option>
+                                            <option value="option4">option4</option>
+                                            <option value="option5">option5</option>
                                         </select>
                                     </div>
                                     <div class="form-group">
-                                        <label>state/province</label>
+                                        <label>state / province</label>
                                         <select class="form-control">
-                                            <option></option>
-                                            <option></option>
-                                            <option></option>
-                                            <option></option>
-                                            <option></option>
+                                            <option value="">Please select region,state or province</option>
+                                            <option value="option1">option1</option>
+                                            <option value="option2">option2</option>
+                                            <option value="option3">option3</option>
+                                            <option value="option4">option4</option>
+                                            <option value="option5">option5</option>
                                         </select>
                                     </div>
                                     <div class="form-group">
-                                        <label>zip/postal code</label>
+                                        <label>zip / postal code</label>
                                         <input class="form-control" type="text">
                                     </div>
-                                    <button type="submit">get a quote</button>
+                                    <button type="submit" class="btn btn-default">get a quote</button>
                                 </form>
                             </article>
                         </div>
 
                         <div class="col-sm-4">
-                            <article>
-                                <p>
+                            <article class="total">
+                                <p class="subtotal">
                                     subtotal
-                                    <span>1130</span>
+                                    <span class="fa fa-eur"></span>
+                                    1130
                                 </p>
-                                <p>
+                                <p class="shipping">
                                     shipping charges
-                                    <span>300</span>
+                                    <span class="fa fa-eur"></span>
+                                    300
                                 </p>
-                                <p>
+                                <p class="grand-total">
                                     grand total
-                                    <span>1430</span>
+                                    <span class="fa fa-eur"></span>
+                                    1430
                                 </p>
-                                <a href="#">proceed to checkout</a>
-                                <p></p>
+                                <a href="#" class="btn btn-default">proceed to checkout</a>
+                                <a href="#" class="checkout">checkout with multiple adresses</a>
                             </article>
                         </div>
 

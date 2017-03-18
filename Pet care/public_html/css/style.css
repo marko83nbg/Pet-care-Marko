@@ -2727,6 +2727,137 @@ CART PAGE
     border-color: #313131;
     color: #fff;
 }
+
+.apply,
+.estimate,
+.total{
+    border: 1px solid #f8f8f8;
+    font-family: 'Montserrat', sans-serif;
+    padding: 30px 20px;
+    margin: 20px 0;
+}
+
+.apply h4,
+.estimate h4,
+.total .grand-total{
+    font-size: 16px;
+    color: #333333;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.apply .form-control,
+.estimate .form-control{
+    border: 1px solid #f8f8f8;
+    border-radius: 0px;
+    box-shadow: none;
+}
+
+.estimate .form-control:focus,
+.apply .form-control:focus{
+    border-color: #333333;
+    box-shadow: none
+}
+
+.apply .btn-default,
+.estimate .btn-default{
+    color: #333333;
+    border-color: #333333;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: 1s ease;
+}
+
+.apply .btn-default:hover,
+.estimate .btn-default:hover,
+.apply .btn-default:focus,
+.estimate .btn-default:focus{
+    background-color: #333333;
+    color: #fff;
+}
+
+.apply p,
+.estimate p{
+    font-size: 13px;
+    font-family: 'Oxygen', sans-serif;
+    color: #777777;
+    text-transform: capitalize;
+}
+
+.estimate label{
+    font-weight: 500;
+    font-size: 13px;
+    text-transform: capitalize;
+}
+.estimate select{
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    background: url('img/arrow.png') no-repeat 95% center;
+    padding: 0 20px 0 10px;
+}
+
+.total{
+    background-color: #f8f8f8;
+    text-align: right;
+}
+
+.total .subtotal,
+.total .shipping{
+    font-size: 13px;
+    color: #777777;
+    text-transform: uppercase;
+}
+
+.total .subtotal span,
+.total .shipping span{
+    margin-left: 50px;
+}
+
+.total .grand-total{
+    margin-top: 30px;
+}
+
+.total .grand-total span{
+    margin-left: 50px;
+}
+
+.total .btn-default {
+    color: #fff;
+    background-color: #ffbe01;
+    border-color: #ffbe01;
+    border-radius: 0;
+    text-transform: uppercase;
+    transition: 1s ease;
+    margin-bottom: 10px;
+}
+
+.total .btn-default:hover,
+.total .btn-default:focus{
+    color: #ffbe01;
+    background-color: #f8f8f8;
+}
+
+.total .checkout{
+    display: block;
+    text-transform: capitalize;
+    color: #ff5454;
+    font-size: 13px;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.total .checkout:hover{
+    text-decoration: underline;
+}
+
+.total .checkout:focus{
+    outline: none;
+    text-decoration: underline;
+}
+
 /* 
 
 END OF CART PAGE
