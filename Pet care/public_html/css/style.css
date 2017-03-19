@@ -2751,6 +2751,8 @@ CART PAGE
     border: 1px solid #f8f8f8;
     border-radius: 0px;
     box-shadow: none;
+    font-size: 10px;
+        padding: 6px 4px;
 }
 
 .estimate .form-control:focus,
@@ -2861,6 +2863,47 @@ CART PAGE
 /* 
 
 END OF CART PAGE
+
+*/
+
+/*
+
+CHECKOUT PAGE
+
+*/
+.checkout-page .headline {
+    float: none !important;
+    width: 100% !important;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.checkout-page .headline h3{
+    font-size: 18px !important;
+}
+
+.checkout-page .col-sm-6 form{
+    border: 1px solid #e8e8e8;
+    padding: 25px 25px;
+}
+
+.checkout-page input[type="text"],
+.checkout-page input[type="email"],
+.checkout-page input[type="password"]{
+    border: 1px solid #e8e8e8;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+/*
+
+END OF CHECKOUT PAGE
 
 */
 

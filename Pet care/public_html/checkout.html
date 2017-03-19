@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>Pet care</title>
+
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Oxygen:300,400,700&amp;subset=latin-ext" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Cabin:400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+        <link href="css/responsive.css" rel="stylesheet" type="text/css"/>
+
+
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <header>
+            <section class="social text-center">
+                <div class="container clearfix">
+                    <p class="social-email">
+                        Leave A Message: <a href="#">info@patcare.com</a>
+                    </p>
+                    <ul class="list-inline">
+                        <li>
+                            <a href="#">
+                                <span class="fa fa-twitter"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="fa fa-facebook"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="fa fa-google-plus"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="fa fa-dribbble"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="fa fa-linkedin"></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="middle-header">
+                <div class="container">
+                    <div class="row">
+                        <figure class="col-sm-3 logo pull-left">
+                            <img src="img/logo-petcare.png" alt="" class="img-responsive"/>
+                        </figure>
+                        <div class="col-sm-9 pull-right text-right">
+                            <div class="slidepanel">
+                                <div class="location">
+
+                                    <span class="fa fa-map-marker"></span>
+                                    <p class="text-left">
+                                        <span>Our Location</span>
+                                        50-Design Street, Texas
+                                    </p>
+
+                                </div>
+                                <div class="time">
+                                    <span class="fa fa-hourglass-2"></span>
+                                    <p class="text-left">
+                                        <span>Mon-Sat</span>
+                                        8am-10pm
+                                    </p>
+
+                                </div>
+                                <div class="phone">
+                                    <span class="fa fa-mobile"></span>
+                                    <p class="text-left">
+                                        <span>Call Us</span>
+                                        +1(0)234 56 789
+                                    </p>
+
+                                </div>
+
+                            </div>
+                            <a href="#" class="cart"><span class="fa fa-shopping-basket"></span></a>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <nav class="navbar navbar-default">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary btn-lg navbar-brand" data-toggle="modal" data-target="#myModal">
+                            get an appointment
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form>
+                                            <div class="form-group col-sm-3">
+                                                <input class="form-control" type="text" placeholder="First Name">
+                                            </div>
+                                            <div class="form-group col-sm-3">
+                                                <input class="form-control" type="text" placeholder="Last Name">
+                                            </div>
+                                            <div class="form-group col-sm-3">
+                                                <input class="form-control" type="email" placeholder="Email">
+                                            </div>
+                                            <div class="form-group col-sm-3">
+                                                <input class="form-control" type="text" placeholder="Phone Number">
+                                            </div>
+                                            <div class="form-group col-sm-12 comment">
+                                                <textarea class="form-control" placeholder="Any thing we should know about your pet?"></textarea>
+                                            </div>   
+
+                                            <button type="button" class="btn btn-primary">get an appoinment</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="#">home <span class="sr-only">(current)</span></a></li>
+                            <li><a href="#">about us</a></li>
+                            <li><a href="#">services</a></li>
+                            <li class="dropdown text-center">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">shop <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Action</a></li>
+                                    <li><a href="#">Another action</a></li>
+                                    <li><a href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">pages<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Action</a></li>
+                                    <li><a href="#">Another action</a></li>
+                                    <li><a href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">blog</a></li>
+                            <li><a href="#">contact us</a></li>
+                        </ul>
+
+
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+            </nav>
+        </header>
+
+        <main>
+            <section class="blog-headline" style="background-image: url('img/banner-1.jpg')">
+                <div class="blog-headline-shadow">
+                    <div class="container">
+                        <h1>
+                            shop - checkout
+                        </h1> 
+                        <ol class="breadcrumb">
+                            <li><a class="breadcrumb-item" href="#">Home</a></li>
+                            <li><a class="breadcrumb-item" href="#">shop</a></li>
+                            <li class="active"><span class="breadcrumb-item">place order</span></li>
+                        </ol>
+                    </div>
+
+                </div>
+            </section>
+            <!-----END OF SECTION BLOG HEADLINE----->
+
+            <section class="shopping-cart checkout-page">
+                <div class="container">
+
+                    <div class="row clearfix">
+                        <div class="col-sm-6">
+                            <article>
+                                <div class="headline text-center">
+                                    <h3>new user registration</h3>
+                                    <img src="img/separator.png" alt=""/>
+
+                                </div>
+                                <form>
+                                    <div class="form-group">
+                                        <label>your name</label>
+                                        <input type="text">
+                                    </div>
+                                    <div class="form-group">
+                                        <label>email</label>
+                                        <input type="email">
+                                    </div>
+                                    <div class="form-group">
+                                        <label>password</label>
+                                        <input type="password">
+                                    </div>
+                                    <div class="form-group">
+                                        <label>re-type password</label>
+                                        <input type="password">
+                                    </div>
+                                    <button type="submit" class="btn btn-default">register</button>
+                                </form>
+                            </article>
+                        </div>
+                        <div class="col-sm-6">
+                            <article>
+                                <div class="headline text-center">
+                                    <h3>return user login</h3>
+                                    <img src="img/separator.png" alt=""/>
+
+                                </div>
+                                <form>
+                                    <div class="form-group">
+                                        <label>email*</label>
+                                        <input type="email">
+                                    </div>
+                                    <div class="form-group">
+                                        <label>password*</label>
+                                        <input type="password">
+                                    </div>
+                                    <a href="#">forgot password?</a>
+                                    <button type="submit" class=" btn btn-default">register</button>
+                                </form>
+                                <span>or</span>
+                                <a href="#" class="btn btn-default">purchase as guest user</a>
+                            </article>
+                        </div>
+                        <div class="col-sm-12">
+                            <article>
+                                <div class="headline text-center">
+                                    <h3>my shopping cart</h3>
+                                    <img src="img/separator.png" alt=""/>
+
+                                </div>
+                                <ul>
+                                    <li class="cart-header clearfix">
+                                        <div class="product-img">product</div>
+                                        <div class="product-name hidden-xs">product name</div>
+                                        <div class="product-quantity hidden-xs">quantity</div>
+                                        <div class="product-price hidden-xs">total</div>
+                                        <div class="product-detail visible-xs">product detail</div><!-- na 768 display:none -->
+                                    </li>
+                                    <li class="cart-product clearfix">
+                                        <div class="product-img">
+                                            <figure>
+                                                <img src="img/shop-img/shop05.jpg" alt="" class="img-responsive"/>
+                                            </figure>
+                                        </div>
+                                        <div class="product-wraper clearfix clear">
+
+
+                                            <div class="product-name">
+                                                <h4>
+                                                    white pet dog
+                                                </h4>
+                                                <p>
+                                                    breed : 
+                                                    <a href="#">maltese</a>
+                                                </p>
+                                                <p>
+                                                    category :
+                                                    <a href="#">companion</a>
+                                                </p>
+                                            </div>
+                                            <div class="product-quantity">
+                                                <div class="form-group order-quantity">
+                                                    <button class="btn btn-default minus">-</button>
+                                                    <input  type="text" value="1" class="quantity form-control">
+                                                    <button class="btn btn-default plus">+</button>
+                                                </div>
+                                            </div>
+                                            <div class="product-price">
+                                                <p>
+                                                    <span class="fa fa-eur"></span>
+                                                    650
+                                                </p>
+                                            </div>
+
+                                        </div>
+
+                                    </li>
+                                    <li class="cart-product clearfix">
+                                        <div class="product-img">
+                                            <figure>
+                                                <img src="img/shop-img/shop07.jpg" alt="" class="img-responsive"/>
+                                            </figure>
+                                        </div>
+                                        <div class="product-wraper clearfix">
+
+
+                                            <div class="product-name">
+                                                <h4>
+                                                    hunter pet dog
+                                                </h4>
+                                                <p>
+                                                    breed : 
+                                                    <a href="#">pit bull</a>
+                                                </p>
+                                                <p>
+                                                    category :
+                                                    <a href="#">hunter</a>
+                                                </p>
+                                            </div>
+                                            <div class="product-quantity">
+                                                <div class="form-group order-quantity">
+                                                    <button class="btn btn-default minus">-</button>
+                                                    <input  type="text" value="1" class="quantity form-control">
+                                                    <button class="btn btn-default plus">+</button>
+                                                </div>
+                                            </div>
+                                            <div class="product-price">
+                                                <p>
+                                                    <span class="fa fa-eur"></span>
+                                                    480
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                    </li>
+                                </ul>
+                                <form>
+                                    <div class="headline text-center">
+                                        <h3>billing address</h3>
+                                        <img src="img/separator.png" alt=""/>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-6 col-md-3 form-group">
+                                            <input type="text" placeholder="First Name*">
+                                        </div>
+                                        <div class="col-sm-6 col-md-3 form-group">
+                                            <input type="text" placeholder="Last Name">
+                                        </div>
+                                        <div class="col-sm-6 col-md-3 form-group">
+                                            <input type="text" placeholder="Phone*">
+                                        </div>
+                                        <div class="col-sm-6 col-md-3 form-group">
+                                            <input type="text" placeholder="Postcode/ZIP*">
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 form-group">
+                                            <input type="text" placeholder="Address Line1*">
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 form-group">
+                                            <input type="text" placeholder="Address Line2">
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 form-group">
+                                            <input type="text" placeholder="Town/City*">
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 form-group">
+                                            <input type="text" placeholder="State/Countr*">
+                                        </div>
+                                        <div class="col-sm-6 col-md-3 form-group">
+                                            <label>
+                                                <input type="checkbox" name="ship" value="billing">
+                                            Ship Items To The Above Billing Address
+                                            <span></span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="headline text-center">
+                                        <h3>shipping address</h3>
+                                        <img src="img/separator.png" alt=""/>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-6 col-md-3 form-group">
+                                            <input type="text" placeholder="First Name*">
+                                        </div>
+                                        <div class="col-sm-6 col-md-3 form-group">
+                                            <input type="text" placeholder="Last Name">
+                                        </div>
+                                        <div class="col-sm-6 col-md-3 form-group">
+                                            <input type="text" placeholder="Phone*">
+                                        </div>
+                                        <div class="col-sm-6 col-md-3 form-group">
+                                            <input type="text" placeholder="Postcode/ZIP*">
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 form-group">
+                                            <input type="text" placeholder="Address Line1*">
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 form-group">
+                                            <input type="text" placeholder="Address Line2">
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 form-group">
+                                            <input type="text" placeholder="Town/City*">
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 form-group">
+                                            <input type="text" placeholder="State/Countr*">
+                                        </div>
+
+                                    </div>
+
+                                    <div class="headline text-center">
+                                        <h3>select payment mode</h3>
+                                        <img src="img/separator.png" alt=""/>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <label>
+                                                <input type="radio" name="payment" value="bank">
+                                                Direct Bank Transfer
+                                                <span>
+                                                    Kindly use your Order ID as the payment reference. 
+                                                    Your order wont
+                                                    be shipped until the funds have cleared in our account.
+                                                </span>
+                                                <span></span>
+                                            </label>
+                                            <label>
+                                                <input type="radio" name="payment" value="cash">
+                                                Cash On Delivery
+                                                <span>
+                                                    Limited to Selected Town / City according to the
+                                                    area postal ZIP codes
+                                                </span>
+                                                <span></span>
+                                            </label>
+                                            <label>
+                                                <input type="radio" name="payment" value="paypal">
+                                                paypal
+                                                <span></span>
+                                                <span></span>
+                                            </label>
+                                        </div>
+                                    </div>
+
+                                    <button type="submit" class=" btn btn-default">place order</button>
+                                </form>
+                            </article>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <section class="footer1">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-6">
+                            <article>
+                                <h4>Subscribe Our Newsletter</h4>
+                            </article>
+                        </div>
+                        <div class="col-md-8 col-sm-12"> 
+                            <article>
+                                <form class="form-inline">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="exampleInputName2" placeholder="Your name">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Your E-mail">
+                                    </div>
+                                    <button type="submit" class="btn btn-default">go</button>
+                                </form>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-----END OF SECTION FOOTER1---->
+
+            <section class="footer2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-4">
+                            <article class="about-us">
+                                <h4>about us</h4>
+                                <p class="hello">Hello we are Comre. We are here to provide 
+                                    you the best offers through our coupons. Hello we are company.
+                                </p>
+                                <ul>
+                                    <li>
+                                        <div>
+
+                                            <span class="fa fa-map-marker"></span>
+                                            <p>
+                                                <span>washington square park</span>
+                                                NY, United States
+                                            </p>
+
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+
+                                            <span class="fa fa-phone"></span>
+                                            <p>
+                                                <span>customer support:</span>
+                                                +123 456 78 99
+                                            </p>
+
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+
+                                            <span class="fa fa-envelope-open-o"></span>
+                                            <p>
+                                                <span>E-mail:</span>
+                                                <a href="#">mail@wodsman.com</a>
+                                            </p>
+
+                                        </div>
+                                    </li>
+                                </ul>
+                            </article>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <article class="working-time">
+                                <h4>working time</h4>
+                                <ul>
+                                    <li class="clearfix">
+                                        <span class="days">
+                                            monday
+                                        </span>
+                                        <span class="working-hours">
+                                            08:00am - 10:00pm
+                                        </span>
+                                    </li>
+                                    <li class="clearfix">
+                                        <span class="days">
+                                            tuesday
+                                        </span>
+                                        <span class="working-hours">
+                                            08:00am - 10:00pm
+                                        </span>
+                                    </li>
+                                    <li class="clearfix">
+                                        <span class="days">
+                                            wednesday
+                                        </span>
+                                        <span class="working-hours">
+                                            08:00am - 10:00pm
+                                        </span>
+                                    </li>
+                                    <li class="clearfix">
+                                        <span class="days">
+                                            thursday
+                                        </span>
+                                        <span class="working-hours">
+                                            08:00am - 10:00pm
+                                        </span>
+                                    </li>
+                                    <li class="clearfix">
+                                        <span class="days">
+                                            friday
+                                        </span>
+                                        <span class="working-hours">
+                                            08:00am - 10:00pm
+                                        </span>
+                                    </li>
+                                    <li class="clearfix">
+                                        <span class="days">
+                                            weekend
+                                        </span>
+                                        <span class="working-hours closed">
+                                            closed
+                                        </span>
+                                    </li>
+                                    <li class="clearfix">
+                                        <span class="days">
+                                            emergency unit
+                                        </span>
+                                        <span class="working-hours">
+                                            open any time
+                                        </span>
+                                    </li>
+                                </ul>
+                            </article>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <article class="subscribe">
+                                <div class="subscribe-content">
+                                    <h4>subscribe to mail!</h4>
+                                    <p>
+                                        Get our Daily email newsletter with 
+                                        Special Services, Updates, Offers and more!
+                                    </p>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" placeholder="Your e-mail">
+                                        <span class="input-group-btn">
+                                            <button class="btn btn-default" type="button">Go</button>
+                                        </span>
+                                    </div><!-- /input-group -->
+
+                                </div>
+
+                                <ul>
+                                    <li>
+                                        <a href="#"><span class="fa fa-facebook"></span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><span class="fa fa-google-plus"></span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><span class="fa fa-tumblr"></span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><span class="fa fa-dribbble"></span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><span class="fa fa-linkedin"></span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><span class="fa fa-twitter"></span></a>
+                                    </li>
+                                </ul>
+                            </article>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <!-------END OF SECTION FOOTER2---->
+
+            <section class="footer3">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <article class="clearfix">
+                                <ul>
+                                    <li>
+                                        <a href="#">faq</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">news</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">client support</a>
+                                    </li>
+                                </ul>
+                            </article>
+                        </div>
+                        <div class="col-sm-7">
+                            <article>
+                                <p>
+                                    copyrights &copy; 2015 company. all rights reserved
+                                </p>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </footer>
+
+
+
+
+
+
+
+
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+
+        <script src="js/bootstrap.min.js"></script>
+
+
+
+
+
+
+
+        <script src="js/main.js" type="text/javascript"></script>
+
+    </body>
+</html>

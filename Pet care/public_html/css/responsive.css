@@ -141,13 +141,13 @@ and open the template in the editor.
         width: 40%;
         float: left;
     }
-    
+
     .single-product .single-product-description{
-    width: 60%;
-    float: right;
-    padding-left: 10px;
-}
-    
+        width: 60%;
+        float: right;
+        padding-left: 10px;
+    }
+
     .single-product-description a{
         display: inline-block;
     }
@@ -157,64 +157,109 @@ and open the template in the editor.
         font-size: 14px;
         margin-right: 10px;
     }
-/*END OF PAGE SINGLE PRODUCT*/
+    /*END OF PAGE SINGLE PRODUCT*/
 
-.shopping-cart .headline{
-    float: left;
-    width: 40%;
-    text-align: left;
+    .shopping-cart .headline{
+        float: left;
+        width: 40%;
+        text-align: left;
 
-}
+    }
 
-.shopping-cart .headline h3{
-    margin-top: 0px;
-}
+    .shopping-cart .headline h3{
+        margin-top: 0px;
+    }
 
-.shopping-cart .continue{
-    float: right;
-}
+    .shopping-cart .continue{
+        float: right;
+    }
 
-.shopping-cart .cart-header{
-    font-size: 10px;
-}
+    .shopping-cart .cart-header{
+        font-size: 10px;
+    }
 
-.shopping-cart .product-img{
-    width: 20%;
-    float: left;
-    text-align: center;
-    padding: 5px 10px 10px 10px;
-}
+    .shopping-cart .product-img{
+        width: 20%;
+        float: left;
+        text-align: center;
+        padding: 5px 10px 10px 10px;
+    }
 
-.shopping-cart .product-name{
-    width: 35%;
-    float: left;
-    text-align: center;
-    padding: 5px 0px;
-}
+    .shopping-cart .product-name{
+        width: 35%;
+        float: left;
+        text-align: center;
+        padding: 5px 0px;
+    }
 
-.shopping-cart .product-quantity{
-    width: 15%;
-    float: left;
-    text-align: center;
-    padding: 5px 0px;
-}
+    .shopping-cart .product-quantity{
+        width: 15%;
+        float: left;
+        text-align: center;
+        padding: 5px 0px;
+    }
 
-.shopping-cart .product-price,
-.shopping-cart .product-subtotal,
-.shopping-cart .product-remove{
-    width: 10%;
-    float: left;
-    text-align: center;
-    padding: 5px 0px;
-}
+    .shopping-cart .product-price,
+    .shopping-cart .product-subtotal,
+    .shopping-cart .product-remove{
+        width: 10%;
+        float: left;
+        text-align: center;
+        padding: 5px 0px;
+    }
 
-.shopping-cart .product-wraper{
-    width: 80%;
-}
+    .shopping-cart .product-wraper{
+        width: 80%;
+    }
 
-.shopping-cart .cart-footer{
-    text-align: left;
-}
+    .shopping-cart .cart-footer{
+        text-align: left;
+    }
+
+    .apply h4,
+    .estimate h4,
+    .total .grand-total{
+        font-size: 12px;
+    }
+
+    .apply p,
+    .estimate p{
+        font-size: 9px;
+    }
+
+    .estimate label{
+        font-size: 9px;
+    }
+
+    .total .subtotal,
+    .total .shipping{
+        font-size: 9px;
+
+    }
+
+    .total .subtotal span,
+    .total .shipping span{
+        margin-left: 25px;
+    }
+
+    .total .grand-total span{
+        margin-left: 20px;
+    }
+
+    .total .btn-default {
+        font-size: 10px;
+    }
+
+    .total .checkout{
+        font-size: 9px;
+
+    }
+
+    .apply .form-control,
+    .estimate .form-control{
+        font-size: 9px;
+        padding: 6px 4px;
+    }
 
 
 
@@ -264,6 +309,49 @@ and open the template in the editor.
 
     .single-product-description a{
         margin-right: 10px;
+    }
+    /* END OF SINGLE PRODUCT DESCRIPTION SECTION*/
+
+    .apply h4,
+    .estimate h4,
+    .total .grand-total{
+        font-size: 16px;
+    }
+
+    .apply p,
+    .estimate p{
+        font-size: 13px;
+    }
+
+    .estimate label{
+        font-size: 13px;
+    }
+
+    .total .subtotal,
+    .total .shipping{
+        font-size: 13px;
+    }
+
+    .total .checkout{
+        font-size: 13px;
+    }
+
+    .total .btn-default {
+        font-size: 14px;
+    }
+
+    .total .subtotal span,
+    .total .shipping span{
+        margin-left: 50px;
+    }
+
+    .total .grand-total span{
+        margin-left: 50px;
+    }
+
+    .apply .form-control,
+    .estimate .form-control{
+        font-size: 10px;
     }
 
 
