@@ -129,6 +129,13 @@ $(document).ready(function () {
             $(this).addClass(animationName);
         }
     });
+    
+    /*cart*/
+    
+    $('.cart-product').on('click', '.remove', function(e){
+        e.preventDefault();
+        $(this).closest('li').hide();
+    });
 
    
     

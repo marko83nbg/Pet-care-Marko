@@ -182,9 +182,16 @@ and open the template in the editor.
         width: 20%;
         float: left;
         text-align: center;
-        padding: 5px 10px 10px 10px;
     }
-  
+
+    .shopping-cart .product-wraper {
+        border-left: none;
+    }
+
+    .cart-product .product-img{
+        border-right:  1px solid #ececec;
+    }
+
     .shopping-cart .product-name{
         width: 35%;
         float: left;
@@ -215,6 +222,24 @@ and open the template in the editor.
 
     .shopping-cart .cart-footer{
         text-align: left;
+    }
+
+    .shopping-cart .product-wraper h4 {
+        margin-top: 20px;
+
+    }
+
+    .product-quantity .order-quantity{
+        margin-top: 20px;
+    }
+
+    .product-wraper .product-price p, 
+    .product-wraper .product-subtotal p {
+        margin-top: 20px;
+    }
+
+    .product-wraper .product-remove .fa {
+        margin-top: 20px;
     }
 
     .apply h4,
@@ -258,9 +283,20 @@ and open the template in the editor.
 
     .apply .form-control,
     .estimate .form-control{
-        font-size: 9px;
+        font-size: 8px;
         padding: 6px 4px;
     }
+    /*END OF SHOPPING CART PAGE*/
+    
+    .checkout-list .product-name{
+        width: 50%;
+    }
+    .checkout-list .product-quantity{
+        width: 25%;
+    }
+    .checkout-list .product-price{
+        width: 25%;
+    } 
 
 
 
@@ -313,6 +349,9 @@ and open the template in the editor.
     }
     /* END OF SINGLE PRODUCT DESCRIPTION SECTION*/
 
+    .shopping-cart .cart-header {
+        font-size: 15px;
+    }
     .apply h4,
     .estimate h4,
     .total .grand-total{
@@ -353,6 +392,31 @@ and open the template in the editor.
     .apply .form-control,
     .estimate .form-control{
         font-size: 10px;
+    }
+    /*END OF SHOPPING CART PAGE*/
+
+    .user label{
+        display: inline-block;
+        width: 30%;
+        float: left;
+        font-size: 12px;
+        line-height: 26px;
+
+    }
+
+    .user input{
+        width: 70%;
+        float: right;
+
+    }
+    
+    .user .btn{
+        float: right;
+    }
+    
+    .user .sign-in{
+        display: inline-block;
+        float: right;
     }
 
 

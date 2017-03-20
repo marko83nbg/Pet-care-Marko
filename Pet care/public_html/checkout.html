@@ -212,24 +212,26 @@
                                     <img src="img/separator.png" alt=""/>
 
                                 </div>
-                                <form>
-                                    <div class="form-group">
+                                <form class="user">
+                                    <div class="form-group clearfix">
                                         <label>your name</label>
                                         <input type="text">
                                     </div>
-                                    <div class="form-group">
+                                    <div class="form-group clearfix">
                                         <label>email</label>
                                         <input type="email">
                                     </div>
-                                    <div class="form-group">
+                                    <div class="form-group clearfix">
                                         <label>password</label>
                                         <input type="password">
                                     </div>
-                                    <div class="form-group">
+                                    <div class="form-group clearfix">
                                         <label>re-type password</label>
                                         <input type="password">
                                     </div>
+                                    <div class="clearfix text-center">
                                     <button type="submit" class="btn btn-default">register</button>
+                                    </div>
                                 </form>
                             </article>
                         </div>
@@ -240,20 +242,24 @@
                                     <img src="img/separator.png" alt=""/>
 
                                 </div>
-                                <form>
-                                    <div class="form-group">
+                                <form class="user clearfix">
+                                    <div class="form-group clearfix">
                                         <label>email*</label>
                                         <input type="email">
                                     </div>
-                                    <div class="form-group">
+                                    <div class="form-group clearfix">
                                         <label>password*</label>
                                         <input type="password">
                                     </div>
+                                    <div class="text-center sign-in">
                                     <a href="#">forgot password?</a>
-                                    <button type="submit" class=" btn btn-default">register</button>
+                                    <button type="submit" class=" btn btn-default">sign in</button>
+                                    </div>
                                 </form>
-                                <span>or</span>
+                                <div class="text-center guest-user">
+                                    <span class="or">or</span>
                                 <a href="#" class="btn btn-default">purchase as guest user</a>
+                                </div>
                             </article>
                         </div>
                         <div class="col-sm-12">
@@ -263,7 +269,7 @@
                                     <img src="img/separator.png" alt=""/>
 
                                 </div>
-                                <ul>
+                                <ul class="checkout-list">
                                     <li class="cart-header clearfix">
                                         <div class="product-img">product</div>
                                         <div class="product-wraper clearfix">
@@ -351,7 +357,7 @@
 
                                     </li>
                                 </ul>
-                                <form>
+                                <form class="client-data">
                                     <div class="headline text-center">
                                         <h3>billing address</h3>
                                         <img src="img/separator.png" alt=""/>
@@ -381,8 +387,8 @@
                                         <div class="col-sm-12 col-md-6 form-group">
                                             <input type="text" placeholder="State/Countr*">
                                         </div>
-                                        <div class="col-sm-6 col-md-3 form-group">
-                                            <label>
+                                        <div class="col-sm-6 col-md-5 form-group">
+                                            <label class="clearfix">
                                                 <input type="checkbox" name="ship" value="billing">
                                                 Ship Items To The Above Billing Address
                                                 <span></span>
@@ -426,30 +432,39 @@
                                         <img src="img/separator.png" alt=""/>
                                     </div>
                                     <div class="row">
-                                        <div class="col-sm-6">
+                                        <div class="col-sm-6 payment">
                                             <label>
                                                 <input type="radio" name="payment" value="bank">
-                                                Direct Bank Transfer
-                                                <span>
-                                                    Kindly use your Order ID as the payment reference. 
+                                                
+                                                   Direct Bank Transfer 
+                                                   <span class="span-text">
+                                                   Kindly use your Order ID as the payment reference. 
                                                     Your order wont
                                                     be shipped until the funds have cleared in our account.
                                                 </span>
+                                                
+                                                    
+                                                
                                                 <span></span>
                                             </label>
                                             <label>
                                                 <input type="radio" name="payment" value="cash">
+                                                
                                                 Cash On Delivery
-                                                <span>
-                                                    Limited to Selected Town / City according to the
+                                                <span class="span-text">
+                                                Limited to Selected Town / City according to the
                                                     area postal ZIP codes
                                                 </span>
+                                                    
+                                                
                                                 <span></span>
                                             </label>
                                             <label>
                                                 <input type="radio" name="payment" value="paypal">
                                                 paypal
-                                                <span></span>
+                                                <span class="card">
+                                                    <img src="img/visa.png" alt=""/>
+                                                </span>
                                                 <span></span>
                                             </label>
                                         </div>

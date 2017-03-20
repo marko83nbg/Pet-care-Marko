@@ -127,6 +127,7 @@ a:hover{
     margin-bottom: 0;
     border-radius: 0;
     font-family: 'Montserrat', sans-serif;
+    border: 1px solid #1377c5;
 }
 
 .navbar-collapse {
@@ -2615,12 +2616,17 @@ CART PAGE
     padding: 5px 5px;
 }
 
-.shopping-cart .product-detail,
+.shopping-cart .product-detail{
+    width: 75%;
+    float: right;
+    text-align: center;
+    padding-top: 5px;
+}
+
 .shopping-cart .product-wraper{
     width: 75%;
     float: right;
     text-align: center;
-    padding: 5px 5px;
 }
 
 .shopping-cart .cart-header{
@@ -2641,7 +2647,7 @@ CART PAGE
 }
 
 .shopping-cart .product-img figure{
-    margin-top:  5px;
+
 }
 
 .shopping-cart .product-wraper h4{
@@ -2753,7 +2759,7 @@ CART PAGE
     border-radius: 0px;
     box-shadow: none;
     font-size: 10px;
-        padding: 6px 4px;
+    padding: 6px 4px;
 }
 
 .estimate .form-control:focus,
@@ -2799,7 +2805,6 @@ CART PAGE
     -webkit-appearance: none;
     -ms-appearance: none;
     -o-appearance: none;
-    background: url('img/arrow.png') no-repeat 95% center;
     padding: 0 20px 0 10px;
 }
 
@@ -2886,15 +2891,182 @@ CHECKOUT PAGE
 .checkout-page .col-sm-6 form{
     border: 1px solid #e8e8e8;
     padding: 25px 25px;
+    margin-bottom: 40px;
 }
 
-.checkout-page input[type="text"],
-.checkout-page input[type="email"],
-.checkout-page input[type="password"]{
+.checkout-page .client-data input[type="text"],
+.checkout-page .client-data input[type="email"],
+.checkout-page .client-data input[type="password"]{
     border: 1px solid #e8e8e8;
     width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Oxygen', sans-serif;
 }
 
+.user label{
+    display: block;
+    font-size: 14px;
+    font-family: 'Oxygen', sans-serif;
+    text-transform: capitalize;
+    color: #999999;
+}
+
+.user input{
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.user .btn{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    background-color: #313131;
+    border: 1px solid #313131;
+    border-radius: 0;
+    text-transform: uppercase;
+    transition: 1s ease;
+}
+
+.user .btn:hover,
+.user .btn:focus{
+    color: #313131;
+    background-color: #fff;
+}
+
+.user a{
+    display: inline-block;
+    color: #f44027;
+    font-family: 'Oxygen', sans-serif;
+    margin-right: 30px;
+    text-transform: capitalize;
+    line-height: 34px;
+
+}
+
+.user a:focus{
+    outline: none;
+}
+
+.col-sm-6 article .or{
+    display: inherit;
+    width: 40px;
+    margin: 0 auto;
+    height: 40px;
+    line-height: 40px;
+    text-transform: uppercase;
+    border: 1px solid #313131;
+    border-radius: 50%;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 700;
+}
+
+.guest-user .btn{
+    border-radius: 0;
+    color: #313131;
+    border: 1px solid #313131;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    margin-top: 20px;
+    transition: 1s ease;
+    margin-bottom: 40px;
+}
+
+.guest-user .btn:hover,
+.guest-user .btn:focus{
+    color: #fff;
+    background-color: #313131;
+    outline: none;
+}
+
+.client-data{
+    margin-top: 40px;
+}
+
+.client-data .headline{
+    margin-top: 40px;
+}
+
+.client-data input{
+    font-size: 12px;
+    font-family: 'Oxygen', sans-serif;
+    padding: 5px 12px;
+    color: #aeaeae;
+
+}
+
+.client-data label{
+    font-family: 'Oxygen', sans-serif;
+    font-size: 13px;
+    text-transform: capitalize;
+    color: #999999;
+}
+
+.client-data .col-md-5 label{
+    display: inline-block;
+    overflow: hidden;
+    margin-right: 15px;
+}
+
+
+.client-data input[type="checkbox"] {
+    width: 0px;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.client-data input[type="checkbox"] + span {
+    width: 15px;
+    height: 15px;
+    display: block;
+    float: left;
+    margin-right: 10px;
+    background-image:  url('img/checkbox.png');
+    visibility: visible;
+}
+
+.client-data input[type="checkbox"]:checked + span {
+    background-image:  url('img/checkbox-checked.png');
+}
+
+.client-data .payment label{
+    font-family: 'Oxygen', sans-serif;
+    font-size: 15px;
+    color: #313131;
+    text-transform: capitalize;
+
+}
+
+.client-data .payment .span-text{
+    display: block;
+    font-size: 13px;
+    color: #999999;
+}
+
+.client-data .payment .card{
+    width: 216px;
+    height: 23px;
+    display: inline-block;
+}
+
+.client-data .btn {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    background-color: #313131;
+    border: 1px solid #313131;
+    border-radius: 0;
+    text-transform: uppercase;
+    transition: 1s ease;
+    margin-top: 30px;
+}
+
+.client-data .btn:hover, 
+.client-data .btn:focus {
+    color: #313131;
+    background-color: #fff;
+    outline: none;
+}
 
 
 
@@ -2967,8 +3139,113 @@ LOGIN PAGE
 */
 
 
+.login{
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+.login .headline p{
+    text-transform: capitalize;
+}
 
 
+.login article{
+    padding: 20px 10px;
+    border: 1px solid #e8e8e8;
+    margin-bottom: 30px;
+}
+
+
+.login label {
+    display: block;
+    font-size: 14px;
+    font-family: 'Oxygen', sans-serif;
+    text-transform: capitalize;
+    color: #999999;
+}
+
+.login input{
+    border: 1px solid #e8e8e8;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Oxygen', sans-serif;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.login input[type='checkbox']{
+    width: 0px;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.login input[type='checkbox']+span{
+    width: 10px;
+    height: 10px;
+    display: block;
+    float: left;
+    margin-right: 10px;
+    background: url('img/checkbox.png') no-repeat center center;
+}
+
+.login input[type="checkbox"]:checked + span {
+     background: url('img/checkbox-checked.png') no-repeat center center;
+}
+
+.login input:focus{
+    border: 1px solid #313131;
+    box-shadow: none;
+    outline: none;
+}
+
+.login form a{
+    display: inline-block;
+    color: #f44027;
+    font-family: 'Oxygen', sans-serif;
+    margin-right: 30px;
+    text-transform: capitalize;
+    line-height: 34px;
+
+}
+
+.login .btn {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    background-color: #313131;
+    border: 1px solid #313131;
+    border-radius: 0;
+    text-transform: uppercase;
+    margin-top: 10px;
+    transition: 1s ease;
+}
+
+.login .btn:hover, 
+.login .btn:focus {
+    color: #313131;
+    background-color: #fff;
+}
+
+.login-social .btn {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    background-color: #1377c5;
+    border: 1px solid #1377c5;
+    border-radius: 0;
+    text-transform: uppercase;
+    margin-top: 10px;
+    transition: 1s ease;
+}
+
+.login-social .btn:hover,
+.login-social .btn:focus{
+    color: #1377c5;
+    background-color: #fff;
+}
+
+.login-social .btn span{
+    margin-right: 5px;
+}
 
 
 
