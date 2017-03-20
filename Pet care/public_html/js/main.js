@@ -1,5 +1,4 @@
 $(document).ready(function () {
-    
 
     
     /*cart quantity*/
@@ -50,7 +49,7 @@ $(document).ready(function () {
 
 
 
-
+ if ($('.single-blog-owl').length>0){
     $('.single-blog-owl').owlCarousel({
         loop: false,
         margin: 10,
@@ -70,15 +69,16 @@ $(document).ready(function () {
             }
         }
     });
+ }
 
-
+ if ($('.bxslider').length>0){
     $('.bxslider').bxSlider({
         auto: true
     });
-
+    }
 
     /*TEAM SECTION SLIDER*/
-
+ if ($('.my-carousel').length>0){
     $('.my-carousel').owlCarousel({
         loop: false,
         margin: 10,
@@ -99,12 +99,12 @@ $(document).ready(function () {
         }
     });
 
-
+    }
 
     $('.testimonial a.bx-prev').text('');
     $('.testimonial a.bx-next').text('');
 
-
+ 
 //Animacije
 
     $(window).scroll(function () {
@@ -130,10 +130,7 @@ $(document).ready(function () {
         }
     });
 
-    $(function () {
-        //Initialize filterizr with default options
-        $('.filtr-container').filterizr();
-    });
+   
     
 
     

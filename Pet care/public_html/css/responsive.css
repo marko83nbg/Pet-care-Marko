@@ -184,7 +184,7 @@ and open the template in the editor.
         text-align: center;
         padding: 5px 10px 10px 10px;
     }
-
+  
     .shopping-cart .product-name{
         width: 35%;
         float: left;
@@ -193,16 +193,17 @@ and open the template in the editor.
     }
 
     .shopping-cart .product-quantity{
-        width: 15%;
+        width: 20%;
         float: left;
         text-align: center;
         padding: 5px 0px;
+
     }
 
     .shopping-cart .product-price,
     .shopping-cart .product-subtotal,
     .shopping-cart .product-remove{
-        width: 10%;
+        width: 15%;
         float: left;
         text-align: center;
         padding: 5px 0px;
